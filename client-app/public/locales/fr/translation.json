@@ -1,0 +1,198 @@
+{
+  "landing": {
+    "title": "Réinventez votre flux de travail avec LCUZR CRM",
+    "description": "La plateforme tout-en-un pour centraliser vos ventes, vos tâches et la structure de votre équipe pour une croissance inégalée.",
+    "getStarted": "Commencer gratuitement",
+    "bookDemo": "Réserver une démo",
+    "trustedBy": "APPROUVÉ PAR LES ÉQUIPES LES PLUS INNOVANTES AU MONDE",
+    "featuresTitle": "Tout ce dont vous avez besoin, rien de superflu",
+    "featuresDescription": "LCUZR regorge de fonctionnalités puissantes conçues pour rationaliser votre flux de travail et augmenter votre productivité.",
+    "dashboardTitle": "Votre entreprise, en un coup d'œil",
+    "dashboardDescription": "Un tableau de bord puissant et intuitif qui rassemble toutes vos informations les plus importantes en un seul endroit.",
+    "whyUsTitle": "Pourquoi LCUZR est différent",
+    "whyUsDescription": "Nous avons créé le CRM que nous avons toujours voulu. Flexible, puissant et conçu pour les équipes modernes qui doivent agir vite.",
+    "learnMore": "En savoir plus",
+    "useCasesTitle": "Conçu pour chaque équipe",
+    "useCasesDescription": "Quels que soient votre secteur d'activité ou votre taille, LCUZR s'adapte à votre flux de travail et à vos besoins commerciaux uniques.",
+    "testimonialsTitle": "Ne nous croyez pas sur parole",
+    "testimonialsDescription": "Écoutez nos clients satisfaits qui ont transformé leurs entreprises avec LCUZR CRM.",
+    "pricingTitle": "Une tarification flexible pour les équipes de toutes tailles",
+    "pricingDescription": "Commencez gratuitement et débloquez plus de puissance à mesure que vous grandissez. Pas de frais cachés. Pas de contrats à long terme.",
+    "monthly": "Mensuel",
+    "annually": "Annuel",
+    "save": "Économisez 40%",
+    "contactEnterprise": "Vous avez plus de 50 utilisateurs ? <1>Contactez-nous pour notre plan Entreprise.</1>",
+    "faqTitle": "Questions fréquemment posées",
+    "chat": "Ouvrir le chat"
+  },
+  "sidebar": {
+    "dashboard": "Tableau de bord",
+    "analytics": "Analyses",
+    "leads": "Pistes",
+    "sales": "Ventes",
+    "products": "Produits",
+    "branches": "Agences",
+    "team_structure": "Structure de l'équipe",
+    "billing": "Facturation",
+    "ai_insights": "Aperçus IA",
+    "reports": "Rapports",
+    "settings": "Paramètres",
+    "change_language": "Changer de langue",
+    "logout": "Déconnexion"
+  },
+  "dashboard": {
+    "title": "Content de vous revoir !",
+    "welcome": "Content de vous revoir, {{name}}",
+    "create_lead": "Créer une piste",
+    "add_quotation": "Ajouter un devis",
+    "assign_task": "Assigner une tâche",
+    "total_revenue": "Revenu total",
+    "active_leads": "Pistes actives",
+    "conversion_rate": "Taux de conversion",
+    "sales": "Ventes",
+    "from_last_month": "depuis le mois dernier",
+    "revenue_overview": "Aperçu des revenus",
+    "recent_leads": "Pistes récentes",
+    "you_have_n_active_leads": "Vous avez {{count}} pistes actives.",
+    "customer": "Client",
+    "status": "Statut",
+    "score": "Score",
+    "admin_cockpit": {
+      "title": "Poste de pilotage Admin",
+      "description": "Vue d'ensemble du système, KPIs et contrôles.",
+      "critical_alerts": "Alertes critiques ({{count}})",
+      "alert1_text": "{{count}} nouvelles pistes ne sont pas assignées. <1>Assigner maintenant</1>",
+      "alert2_text": "{{count}} devis sont en retard. <1>Examiner</1>",
+      "business_pulse": "Pouls de l'entreprise",
+      "per_month": "/ mois",
+      "new_leads_today": "Nouvelles pistes aujourd'hui",
+      "conv_rate": "Taux de conv.",
+      "active_quotes": "Devis actifs",
+      "top_branch": "Meilleure agence",
+      "system_health": "Santé du système",
+      "crm_status": "Statut CRM",
+      "nominal": "Nominal",
+      "last_sync": "Dernière synchro",
+      "ago": "il y a",
+      "inactive_users": "Utilisateurs inactifs",
+      "failed_jobs": "Tâches échouées",
+      "team_snapshot": "Aperçu de l'équipe",
+      "online_staff": "Personnel en ligne",
+      "most_active": "Le plus actif",
+      "late_follow_ups": "Suivis en retard",
+      "unassigned_leads": "Pistes non assignées",
+      "quick_actions": "Actions rapides",
+      "add_user": "Ajouter un utilisateur",
+      "roles": "Rôles",
+      "export": "Exporter",
+      "broadcast": "Diffuser",
+      "lockdown": "Verrouillage système"
+    },
+    "sales_manager_overview": {
+        "title": "Aperçu du Directeur des Ventes",
+        "description": "Un tableau de bord personnalisé pour les directeurs des ventes."
+    },
+    "showroom_rep_overview": {
+        "title": "Aperçu du Représentant en Showroom",
+        "description": "Un tableau de bord personnalisé pour les représentants en showroom."
+    },
+    "field_rep_overview": {
+        "title": "Aperçu du Représentant de Terrain",
+        "description": "Un tableau de bord personnalisé pour les représentants de terrain.",
+        "next_visit": "Prochaine Visite",
+        "scheduled_for": "Prévue pour {{time}}",
+        "start_navigation": "Démarrer la Navigation"
+    }
+  },
+  "analytics": {
+    "title": "Analyses et Rapports",
+    "description": "Plongez dans les performances de votre entreprise.",
+    "filter_by_rep": "Filtrer par Rep.",
+    "all_reps": "Tous les Reps.",
+    "export": "Exporter",
+    "kpi": {
+      "total_leads": "Total Pistes",
+      "total_sales": "Ventes Totales",
+      "conversion_rate": "Taux de Conversion",
+      "revenue": "Revenu",
+      "top_rep": "Meilleur Rep.",
+      "change_from_last_month": "{{change}} par rapport au mois dernier",
+      "this_month": "Ce mois-ci"
+    },
+    "sales_over_time": {
+      "title": "Ventes au fil du temps",
+      "description": "Performance des revenus et du taux de réussite sur les 6 derniers mois."
+    },
+    "lead_funnel": {
+      "title": "Entonnoir de Pistes",
+      "description": "Étapes de conversion des visiteurs aux contrats gagnés."
+    },
+    "product_analytics": {
+      "title": "Analyse des Produits",
+      "description": "Répartition des ventes par catégorie de produit."
+    },
+    "team_performance": {
+      "title": "Performance de l'Équipe",
+      "description": "Indicateurs clés pour vos meilleurs représentants commerciaux.",
+      "rep": "Rep.",
+      "type": "Type",
+      "leads": "Pistes",
+      "conversion": "Conversion",
+      "avg_deal": "Contrat Moy.",
+      "status": "Statut"
+    },
+    "ai_insights": {
+      "title": "Aperçus IA",
+      "description": "Recommandations alimentées par l'IA.",
+      "trend_alert": "Alerte de Tendance",
+      "prediction": "Prédiction",
+      "suggestion": "Suggestion",
+      "ask_ai_placeholder": "Demandez à l'IA... (ex: 'Prévoir les ventes pour le prochain trimestre')",
+      "get_insight": "Obtenir un Aperçu"
+    }
+  },
+  "leads": {
+    "title": "Gestion des Pistes",
+    "description": "Vue d'ensemble Kanban de toutes vos pistes.",
+    "search_placeholder": "Rechercher par nom, entreprise...",
+    "filters": "Filtres",
+    "new_lead": "Nouvelle Piste",
+    "create_new_lead": "Créer une Nouvelle Piste",
+    "create_new_lead_desc": "Remplissez les informations pour ajouter une nouvelle piste.",
+    "name": "Nom",
+    "company": "Entreprise",
+    "email": "Email",
+    "phone": "Téléphone",
+    "interest": "Intérêt",
+    "interest_placeholder": "ex. Produit A, Service B",
+    "source": "Source",
+    "select_source": "Sélectionnez une source",
+    "create_lead_button": "Créer la Piste",
+    "drag_leads_here": "Faites glisser les pistes ici",
+    "call": "Appeler",
+    "schedule": "Planifier",
+    "convert": "Convertir",
+    "overview": "Aperçu",
+    "timeline": "Chronologie",
+    "files": "Fichiers",
+    "ai_assistant": "Assistant IA",
+    "lead_details": "Détails de la Piste",
+    "ai_score": "Score IA"
+  },
+  "common": {
+    "sources": {
+      "website": "Site web",
+      "referral": "Recommandation",
+      "exhibition": "Salon",
+      "walk_in": "Visite spontanée"
+    },
+    "status": {
+      "new": "Nouveau",
+      "contacted": "Contacté",
+      "qualified": "Qualifié",
+      "proposal": "Proposition",
+      "won": "Gagné",
+      "lost": "Perdu"
+    }
+  }
+}

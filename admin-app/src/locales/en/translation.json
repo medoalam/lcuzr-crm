@@ -1,0 +1,591 @@
+
+{
+  "header": {
+    "searchPlaceholder": "Quick search...",
+    "notifications": "Notifications",
+    "profile": "Profile",
+    "billing": "Billing",
+    "settings": "Settings",
+    "logout": "Log out",
+    "admin": "Admin",
+    "adminEmail": "admin@lcuzr.com",
+    "switchLanguage": "Switch Language"
+  },
+  "sidebar": {
+    "dashboard": "Dashboard",
+    "companies": "Companies",
+    "billing": "Billing",
+    "support": "Support",
+    "users": "User Management",
+    "gateway": "Gateway",
+    "settings": "Settings"
+  },
+  "dashboardTab": {
+    "title": "Dashboard",
+    "totalCompanies": "Total Companies",
+    "totalCompaniesDesc": "+25 since last month",
+    "activeUsers": "Active Users",
+    "activeUsersDesc": "+180 since last month",
+    "mrr": "Monthly Revenue (MRR)",
+    "mrrDesc": "+2.1% from last month",
+    "openSupportTickets": "Open Support Tickets",
+    "openSupportTicketsDesc": "+5 new tickets today",
+    "revenueGrowthTitle": "Revenue Growth",
+    "revenueGrowthDesc": "Monthly revenue over the last 6 months.",
+    "subscriptionPlansTitle": "Subscription Plans",
+    "subscriptionPlansDesc": "Distribution of active plans.",
+    "recentActivityTitle": "Recent Activity",
+    "recentActivityDesc": "A feed of the latest system and user actions.",
+    "recentSupportTicketsTitle": "Recent Support Tickets",
+    "recentSupportTicketsDesc": "Latest tickets from customers.",
+    "tableSubject": "Subject",
+    "tableCompany": "Company",
+    "tableStatus": "Status",
+    "tableActions": "Actions"
+  },
+  "common": {
+    "save": "Save Changes",
+    "create": "Create",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "edit": "Edit",
+    "add": "Add",
+    "submit": "Submit",
+    "actions": "Actions",
+    "status": "Status",
+    "error": "Error",
+    "success": "Success",
+    "loading": "Loading...",
+    "search": "Search...",
+    "filter": "Filter...",
+    "viewDetails": "View Details",
+    "openMenu": "Open Menu"
+  },
+  "companies": {
+    "title": "Companies",
+    "description": "Manage and monitor all client companies.",
+    "addCompany": "Add Company",
+    "filterPlaceholder": "Filter by company name or industry...",
+    "status": {
+      "active": "Active",
+      "trial": "Trial",
+      "suspended": "Suspended"
+    },
+    "table": {
+      "companyName": "Company Name",
+      "industry": "Industry",
+      "country": "Country",
+      "users": "Users",
+      "usage": "Usage",
+      "plan": "Subscription Plan"
+    },
+    "actions": {
+      "edit": "Edit Company",
+      "view": "View Details",
+      "ai": "AI Actions",
+      "predictUsage": "Predict Usage",
+      "suggestUpgrade": "Suggest Upgrade",
+      "delete": "Delete Company"
+    },
+    "deleteDialog": {
+      "title": "Are you sure?",
+      "description": "This action cannot be undone. This will permanently delete the company {{name}}.",
+      "deleting": "Deleting..."
+    },
+    "aiDialog": {
+      "predictionTitle": "Usage Prediction for {{companyName}}",
+      "suggestionTitle": "Upgrade Suggestion for {{companyName}}",
+      "description": "This is an AI-generated analysis. Please review carefully.",
+      "analyzing": "Analyzing...",
+      "result": {
+        "recommendation": "Recommendation",
+        "reasoning": "Reasoning",
+        "predictedUsage": "Predicted Usage",
+        "suggestion": "Suggestion",
+        "confidence": "Confidence"
+      }
+    },
+    "toast": {
+      "deleteSuccess": "Company deleted successfully."
+    }
+  },
+  "companyForm": {
+    "editTitle": "Edit Company",
+    "addTitle": "Add New Company",
+    "editDescription": "Update the details for this company.",
+    "addDescription": "Fill in the details for the new company.",
+    "labels": {
+      "name": "Company Name",
+      "industry": "Industry",
+      "country": "Country",
+      "email": "Contact Email",
+      "employees": "Number of Employees",
+      "status": "Status",
+      "plan": "Plan"
+    },
+    "placeholders": {
+      "name": "Innovate Inc.",
+      "industry": "Technology",
+      "country": "e.g., USA",
+      "email": "contact@company.com"
+    },
+    "selects": {
+      "employees": {
+        "placeholder": "Select a size",
+        "s1": "1-10 employees",
+        "s2": "11-50 employees",
+        "s3": "51-200 employees",
+        "s4": "201-1000 employees",
+        "s5": "1000+ employees"
+      },
+      "status": {
+        "placeholder": "Select a status",
+        "active": "Active",
+        "trial": "Trial",
+        "suspended": "Suspended"
+      },
+      "plan": {
+        "placeholder": "Select a plan",
+        "basic": "Basic",
+        "pro": "Pro",
+        "enterprise": "Enterprise"
+      }
+    },
+    "save": "Save Changes",
+    "create": "Create Company",
+    "toast": {
+      "addSuccess": "Company added successfully.",
+      "updateSuccess": "Company updated successfully."
+    }
+  },
+  "billing": {
+    "summary": {
+      "activeSubscriptions": "Active Subscriptions",
+      "activeSubscriptionsDesc": "Total active paid plans",
+      "mrr": "Monthly Recurring Revenue",
+      "mrrDesc": "+20.1% from last month",
+      "upcomingRenewals": "Upcoming Renewals",
+      "upcomingRenewalsDesc": "In the next 30 days",
+      "overdueInvoices": "Overdue Invoices",
+      "overdueInvoicesDesc": "Total pending or failed"
+    },
+    "history": {
+      "title": "Billing History",
+      "description": "A record of all invoices and their status. You can download or resend invoices from here.",
+      "filterPlaceholder": "Search by invoice or company...",
+      "filterByStatus": "Filter by status",
+      "allStatuses": "All Statuses",
+      "filterByPlan": "Filter by plan",
+      "allPlans": "All Plans",
+      "pickDateRange": "Pick a date range"
+    },
+    "table": {
+      "invoiceId": "Invoice ID",
+      "company": "Company",
+      "date": "Date",
+      "paymentMethod": "Payment Method",
+      "plan": "Subscription Plan",
+      "nextBilling": "Next Billing",
+      "amount": "Amount"
+    },
+    "status": {
+      "paid": "Paid",
+      "pending": "Pending",
+      "failed": "Failed",
+      "refunded": "Refunded"
+    },
+    "actions": {
+      "invoiceActions": "Invoice Actions",
+      "download": "Download Invoice",
+      "retryPayment": "Retry Payment",
+      "sendReminder": "Send Reminder",
+      "resendInvoice": "Resend Invoice",
+      "subscription": "Subscription",
+      "suspend": "Suspend Subscription",
+      "cancel": "Cancel Subscription"
+    }
+  },
+  "support": {
+    "title": "Support Tickets",
+    "description": "Manage all customer support requests.",
+    "newTicket": "New Ticket",
+    "filterPlaceholder": "Search by subject or company...",
+    "filterByStatus": "Filter by status",
+    "allStatuses": "All Statuses",
+    "filterByPriority": "Filter by priority",
+    "allPriorities": "All Priorities",
+    "summary": {
+      "openTickets": "Open Tickets",
+      "openTicketsDesc": "Awaiting first response",
+      "inProgress": "Tickets In Progress",
+      "inProgressDesc": "Currently being handled",
+      "avgResponse": "Average Response Time",
+      "avgResponseTime": "4.2 hours",
+      "avgResponseDesc": "Average for the last 7 days",
+      "resolvedToday": "Resolved Today",
+      "resolvedTodayDesc": "+2 compared to yesterday"
+    },
+    "table": {
+      "subject": "Subject",
+      "company": "Company",
+      "priority": "Priority",
+      "createdDate": "Created Date",
+      "assignedTo": "Assigned To"
+    },
+    "priority": {
+      "high": "High",
+      "medium": "Medium",
+      "low": "Low"
+    },
+    "status": {
+      "open": "Open",
+      "inprogress": "In Progress",
+      "resolved": "Resolved",
+      "closed": "Closed"
+    },
+    "actions": {
+      "changeStatus": "Change Status"
+    },
+    "toast": {
+      "statusUpdated": "Ticket status updated."
+    }
+  },
+  "userManagement": {
+    "title": "User Management",
+    "description": "Invite, manage, and view all users in the system.",
+    "inviteUser": "Invite User",
+    "filterPlaceholder": "Filter by name, email, or company...",
+    "summary": {
+      "totalUsers": "Total Users",
+      "totalUsersDesc": "+2 since last week",
+      "activeUsers": "Active Users",
+      "activeUsersDesc": "Active on the platform"
+    },
+    "table": {
+      "user": "User",
+      "company": "Company",
+      "role": "Role",
+      "lastLogin": "Last Login"
+    },
+    "status": {
+      "active": "Active",
+      "suspended": "Suspended"
+    },
+    "actions": {
+      "edit": "Edit User",
+      "suspend": "Suspend User",
+      "activate": "Activate User",
+      "delete": "Delete User"
+    },
+    "deleteDialog": {
+      "title": "Are you sure?",
+      "description": "This action cannot be undone. This will permanently delete the user {{name}}."
+    },
+    "toast": {
+      "statusUpdated": "User status updated.",
+      "deleted": "User deleted successfully."
+    }
+  },
+  "userForm": {
+    "editTitle": "Edit User",
+    "addTitle": "Invite New User",
+    "editDescription": "Update the details for this user.",
+    "addDescription": "Fill in the details for the new user. They will receive an invitation email.",
+    "labels": {
+      "name": "Full Name",
+      "email": "Email Address",
+      "company": "Company",
+      "role": "Role",
+      "status": "Status"
+    },
+    "placeholders": {
+      "name": "John Doe",
+      "email": "user@company.com",
+      "company": "Innovate Inc."
+    },
+    "selects": {
+      "role": {
+        "placeholder": "Select a role",
+        "admin": "Admin",
+        "member": "Member",
+        "viewer": "Viewer"
+      },
+      "status": {
+        "placeholder": "Select a status",
+        "active": "Active",
+        "suspended": "Suspended"
+      }
+    },
+    "save": "Save Changes",
+    "create": "Send Invitation",
+    "toast": {
+      "addSuccess": "User invited successfully.",
+      "updateSuccess": "User updated successfully."
+    }
+  },
+  "gateway": {
+    "token": {
+      "title": "API Token Management",
+      "description": "Create, manage, and revoke API tokens for internal services.",
+      "createToken": "Create Token",
+      "table": {
+        "owner": "Owner",
+        "scopes": "Scopes",
+        "lastUsed": "Last Used",
+        "tokenId": "Token ID"
+      },
+      "status": {
+        "active": "Active",
+        "revoked": "Revoked"
+      },
+      "actions": {
+        "copy": "Copy Token",
+        "edit": "Edit Scopes",
+        "revoke": "Revoke Token"
+      },
+      "form": {
+        "title": "Create New API Token",
+        "description": "Configure the owner and permissions for the new token. The token will be displayed once after creation.",
+        "ownerLabel": "Owner",
+        "ownerPlaceholder": "e.g., billing_service",
+        "scopesLabel": "Scopes",
+        "createButton": "Create Token",
+        "ownerRequired": "Token owner is required.",
+        "scopeRequired": "At least one scope must be selected."
+      },
+      "revokeDialog": {
+        "title": "Are you sure you want to revoke this token?",
+        "description": "This action cannot be undone. The token for {{owner}} (ID: {{id}}...) will be permanently deactivated.",
+        "confirm": "Yes, Revoke Token"
+      },
+      "toast": {
+        "created": "The new API token has been successfully created.",
+        "revoked": "Token for {{owner}} has been revoked."
+      }
+    },
+    "audit": {
+      "title": "Audit Logs",
+      "description": "Track all platform-wide user and system activity. Filter by action, user, IP, or status.",
+      "filterPlaceholder": "Filter logs...",
+      "table": {
+        "timestamp": "Timestamp",
+        "action": "Action",
+        "user": "User / Service",
+        "ip": "IP Address",
+        "duration": "Duration"
+      },
+      "noLogs": "No logs found matching your filter."
+    }
+  },
+  "settings": {
+    "tabs": {
+      "general": "General",
+      "security": "Security",
+      "billing": "Billing",
+      "plans": "Plans",
+      "integrations": "Integrations",
+      "notifications": "Notifications",
+      "roles": "Roles"
+    },
+    "toast": {
+      "saveSuccessTitle": "Settings Saved",
+      "saveSuccessDescription": "Your {{section}} settings have been updated successfully."
+    },
+    "general": {
+      "title": "General Settings",
+      "description": "Manage your application's basic information and defaults.",
+      "appNameLabel": "Application Name",
+      "contactEmailLabel": "Contact Email",
+      "languageLabel": "Default Language",
+      "languagePlaceholder": "Select language",
+      "timezoneLabel": "Timezone",
+      "timezonePlaceholder": "Select timezone"
+    },
+    "security": {
+      "title": "Security Settings",
+      "description": "Configure security policies and user authentication.",
+      "twoFactorAuthLabel": "Two-Factor Authentication (2FA)",
+      "twoFactorAuthDescription": "Require a second authentication step for all users.",
+      "sessionTimeoutLabel": "Session Timeout (minutes)",
+      "passwordPolicyLabel": "Password Policy",
+      "passwordPolicyPlaceholder": "Select policy",
+      "passwordPolicyLow": "Low (6+ characters)",
+      "passwordPolicyMedium": "Medium (8+ characters, one number)",
+      "passwordPolicyStrong": "Strong (12+ characters, symbols, mixed case)"
+    },
+    "billing": {
+      "title": "Billing Settings",
+      "description": "Manage default currency, tax rates, and invoice details.",
+      "taxRateLabel": "Default Tax Rate (%)",
+      "currencyLabel": "Default Currency",
+      "currencyPlaceholder": "Select currency",
+      "invoiceFooterLabel": "Invoice Footer Text"
+    },
+    "integrations": {
+      "title": "Integrations",
+      "description": "Connect with third-party apps and services.",
+      "slackDescription": "Receive notifications in your Slack workspace.",
+      "zapierDescription": "Automate workflows with thousands of apps.",
+      "connect": "Connect"
+    },
+    "notifications": {
+      "title": "Notification Settings",
+      "description": "Manage how you and your team receive alerts.",
+      "systemAlertsLabel": "System Alerts",
+      "systemAlertsDescription": "Receive alerts for critical system events.",
+      "dailySummaryLabel": "Daily Summary Email",
+      "dailySummaryDescription": "Get a daily digest of platform activity.",
+      "billingRemindersLabel": "Billing Reminders",
+      "billingRemindersDescription": "Get notified about upcoming and failed payments."
+    },
+    "plans": {
+      "title": "Subscription Plans",
+      "description": "Manage pricing, features, and availability of your subscription plans.",
+      "monthly": "Monthly",
+      "yearly": "Yearly (40% off)",
+      "addPlan": "Add Plan",
+      "customPrice": "Custom",
+      "free": "Free",
+      "perMonth": "/mo",
+      "perYear": "/yr",
+      "subscriberCount": "{{count}} active companies",
+      "archive": "Archive",
+      "activate": "Activate",
+      "status": {
+        "active": "Active",
+        "archived": "Archived"
+      },
+      "badge": {
+        "none": "None",
+        "popular": "Popular",
+        "best_value": "Best Value"
+      },
+      "toast": {
+        "updated": "Plan updated successfully.",
+        "created": "Plan created successfully.",
+        "archived": "The plan has been archived and will not be available for new customers.",
+        "activated": "The plan is now active."
+      },
+      "archiveDialog": {
+        "title": "Are you sure?",
+        "description": "This will archive the {{name}} plan. Existing subscribers will not be affected, but no new customers can subscribe to it.",
+        "confirm": "Yes, Archive Plan"
+      },
+      "form": {
+        "editTitle": "Edit Plan",
+        "createTitle": "Create New Plan",
+        "editDescription": "Update the details for this subscription plan.",
+        "createDescription": "Fill in the details for the new plan.",
+        "labels": {
+          "name": "Plan Name",
+          "price": "Monthly Price ($)",
+          "description": "Description",
+          "features": "Features",
+          "notes": "Internal Notes (Optional)",
+          "badge": "Badge"
+        },
+        "placeholders": {
+          "name": "e.g., Pro",
+          "price": "49 or Custom",
+          "description": "A short description of the plan.",
+          "features": "One feature per line...",
+          "notes": "Notes for the sales team...",
+          "status": "Select status",
+          "badge": "No badge"
+        },
+        "featuresDescription": "Enter each feature on a new line."
+      }
+    },
+    "roles": {
+      "title": "Roles Management",
+      "description": "Define roles and the permissions associated with them.",
+      "createRole": "Create Role",
+      "table": {
+        "roleName": "Role Name",
+        "description": "Description",
+        "users": "Users",
+        "permissions": "Permissions"
+      },
+      "actions": {
+        "edit": "Edit Role",
+        "delete": "Delete Role"
+      },
+      "deleteDialog": {
+        "title": "Are you absolutely sure?",
+        "description": "This action cannot be undone. This will permanently delete the <strong>{{name}}</strong> role."
+      },
+      "toast": {
+        "updated": "Role has been updated.",
+        "created": "New role has been created.",
+        "deleted": "Role has been deleted.",
+        "deleteAdminError": "The Super Admin role cannot be deleted."
+      },
+      "reference": {
+        "title": "Permission Reference",
+        "description": "A complete list of all available permissions in the system, grouped by module."
+      },
+      "permissionGroups": {
+        "companies": "Companies",
+        "billing": "Billing",
+        "support": "Support",
+        "users": "Users",
+        "gateway": "Gateway",
+        "settings": "Settings"
+      },
+      "permissions": {
+        "companies_view_label": "View Companies",
+        "companies_view_desc": "Can view company list and profiles.",
+        "companies_edit_label": "Edit Companies",
+        "companies_edit_desc": "Can edit company details.",
+        "companies_create_label": "Create Companies",
+        "companies_create_desc": "Can add new companies.",
+        "companies_delete_label": "Delete Companies",
+        "companies_delete_desc": "Can delete companies.",
+        "billing_view_label": "View Billing",
+        "billing_view_desc": "Can view billing history and invoices.",
+        "billing_manage_label": "Manage Subscriptions",
+        "billing_manage_desc": "Can upgrade/downgrade plans.",
+        "billing_export_label": "Export Invoices",
+        "billing_export_desc": "Can download PDF invoices.",
+        "support_view_label": "View Tickets",
+        "support_view_desc": "Can view support tickets.",
+        "support_reply_label": "Reply to Tickets",
+        "support_reply_desc": "Can reply to support tickets.",
+        "support_manage_label": "Manage Tickets",
+        "support_manage_desc": "Can change ticket status, priority, and assignment.",
+        "users_view_label": "View Users",
+        "users_view_desc": "Can view list of users.",
+        "users_invite_label": "Invite Users",
+        "users_invite_desc": "Can invite new users to the platform.",
+        "users_manage_label": "Manage Users",
+        "users_manage_desc": "Can suspend, activate, and edit user details.",
+        "gateway_admin_label": "Manage API Gateway",
+        "gateway_admin_desc": "Can create, manage, and revoke API tokens.",
+        "logs_read_label": "View Audit Logs",
+        "logs_read_desc": "Can view the audit log trail.",
+        "settings_view_label": "View Settings",
+        "settings_view_desc": "Can view system settings.",
+        "settings_edit_label": "Edit Settings",
+        "settings_edit_desc": "Can change system settings.",
+        "roles_manage_label": "Manage Roles & Permissions",
+        "roles_manage_desc": "Can create, edit, and delete roles."
+      },
+      "form": {
+        "editTitle": "Edit Role",
+        "createTitle": "Create New Role",
+        "editDescription": "Update the details for this role.",
+        "createDescription": "Fill in the details for the new role.",
+        "labels": {
+          "name": "Role Name",
+          "description": "Description",
+          "permissions": "Permissions"
+        },
+        "placeholders": {
+          "name": "e.g., Finance Manager",
+          "description": "Describe what this role can do."
+        },
+        "permissionsDescription": "Select the permissions this role should have."
+      }
+    }
+  }
+}

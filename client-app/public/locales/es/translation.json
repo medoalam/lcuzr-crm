@@ -1,0 +1,198 @@
+{
+  "landing": {
+    "title": "Reinvente su flujo de trabajo con LCUZR CRM",
+    "description": "La plataforma todo en uno para centralizar sus ventas, tareas y estructura de equipo para un crecimiento sin igual.",
+    "getStarted": "Comenzar gratis",
+    "bookDemo": "Reservar una demostración",
+    "trustedBy": "CONFIANZA DE LOS EQUIPOS MÁS INNOVADORES DEL MUNDO",
+    "featuresTitle": "Todo lo que necesita, nada que no necesite",
+    "featuresDescription": "LCUZR está repleto de potentes funciones diseñadas para optimizar su flujo de trabajo y aumentar la productividad.",
+    "dashboardTitle": "Su negocio, de un vistazo",
+    "dashboardDescription": "Un panel de control potente e intuitivo que reúne toda su información más importante en un solo lugar.",
+    "whyUsTitle": "Por qué LCUZR es diferente",
+    "whyUsDescription": "Construimos el CRM que siempre quisimos. Flexible, potente y diseñado para equipos modernos que necesitan moverse rápido.",
+    "learnMore": "Aprende más",
+    "useCasesTitle": "Creado para cada equipo",
+    "useCasesDescription": "No importa su industria o tamaño, LCUZR se adapta a su flujo de trabajo y necesidades comerciales únicas.",
+    "testimonialsTitle": "No se fíe solo de nuestra palabra",
+    "testimonialsDescription": "Escuche a nuestros clientes satisfechos que han transformado sus negocios con LCUZR CRM.",
+    "pricingTitle": "Precios flexibles para equipos de todos los tamaños",
+    "pricingDescription": "Comience de forma gratuita y desbloquee más potencia a medida que crece. Sin tarifas ocultas. Sin contratos a largo plazo.",
+    "monthly": "Mensual",
+    "annually": "Anual",
+    "save": "Ahorre 40%",
+    "contactEnterprise": "¿Tiene más de 50 usuarios? <1>Contáctenos para nuestro plan Enterprise.</1>",
+    "faqTitle": "Preguntas frecuentes",
+    "chat": "Abrir chat"
+  },
+  "sidebar": {
+    "dashboard": "Panel",
+    "analytics": "Análisis",
+    "leads": "Clientes potenciales",
+    "sales": "Ventas",
+    "products": "Productos",
+    "branches": "Sucursales",
+    "team_structure": "Estructura del equipo",
+    "billing": "Facturación",
+    "ai_insights": "Ideas de IA",
+    "reports": "Informes",
+    "settings": "Configuración",
+    "change_language": "Cambiar idioma",
+    "logout": "Cerrar sesión"
+  },
+  "dashboard": {
+    "title": "¡Bienvenido de nuevo!",
+    "welcome": "Bienvenido de nuevo, {{name}}",
+    "create_lead": "Crear cliente potencial",
+    "add_quotation": "Añadir cotización",
+    "assign_task": "Asignar tarea",
+    "total_revenue": "Ingresos totales",
+    "active_leads": "Clientes potenciales activos",
+    "conversion_rate": "Tasa de conversión",
+    "sales": "Ventas",
+    "from_last_month": "desde el mes pasado",
+    "revenue_overview": "Resumen de ingresos",
+    "recent_leads": "Clientes potenciales recientes",
+    "you_have_n_active_leads": "Tiene {{count}} clientes potenciales activos.",
+    "customer": "Cliente",
+    "status": "Estado",
+    "score": "Puntuación",
+    "admin_cockpit": {
+      "title": "Cabina de administrador",
+      "description": "Visión general a nivel de sistema, KPIs y controles.",
+      "critical_alerts": "Alertas críticas ({{count}})",
+      "alert1_text": "{{count}} nuevos clientes potenciales no están asignados. <1>Asignar ahora</1>",
+      "alert2_text": "{{count}} cotizaciones están vencidas. <1>Revisar</1>",
+      "business_pulse": "Pulso del negocio",
+      "per_month": "/ mes",
+      "new_leads_today": "Nuevos clientes potenciales hoy",
+      "conv_rate": "Tasa de conv.",
+      "active_quotes": "Cotizaciones activas",
+      "top_branch": "Sucursal principal",
+      "system_health": "Salud del sistema",
+      "crm_status": "Estado del CRM",
+      "nominal": "Nominal",
+      "last_sync": "Última sinc.",
+      "ago": "hace",
+      "inactive_users": "Usuarios inactivos",
+      "failed_jobs": "Trabajos fallidos",
+      "team_snapshot": "Instantánea del equipo",
+      "online_staff": "Personal en línea",
+      "most_active": "Más activo",
+      "late_follow_ups": "Seguimientos atrasados",
+      "unassigned_leads": "Clientes potenciales no asignados",
+      "quick_actions": "Acciones rápidas",
+      "add_user": "Añadir usuario",
+      "roles": "Roles",
+      "export": "Exportar",
+      "broadcast": "Difundir",
+      "lockdown": "Bloqueo del sistema"
+    },
+    "sales_manager_overview": {
+        "title": "Resumen del Gerente de Ventas",
+        "description": "Un panel de control personalizado para gerentes de ventas."
+    },
+    "showroom_rep_overview": {
+        "title": "Resumen del Representante de Sala de Exposición",
+        "description": "Un panel de control personalizado para representantes de sala de exposición."
+    },
+    "field_rep_overview": {
+        "title": "Resumen del Representante de Campo",
+        "description": "Un panel de control personalizado para representantes de campo.",
+        "next_visit": "Próxima Visita",
+        "scheduled_for": "Programada para las {{time}}",
+        "start_navigation": "Iniciar Navegación"
+    }
+  },
+  "analytics": {
+    "title": "Análisis e Informes",
+    "description": "Análisis profundo del rendimiento de su negocio.",
+    "filter_by_rep": "Filtrar por Rep.",
+    "all_reps": "Todos los Reps.",
+    "export": "Exportar",
+    "kpi": {
+      "total_leads": "Total de Clientes Potenciales",
+      "total_sales": "Ventas Totales",
+      "conversion_rate": "Tasa de Conversión",
+      "revenue": "Ingresos",
+      "top_rep": "Mejor Rep.",
+      "change_from_last_month": "{{change}} desde el mes pasado",
+      "this_month": "Este mes"
+    },
+    "sales_over_time": {
+      "title": "Ventas a lo largo del tiempo",
+      "description": "Rendimiento de ingresos y tasa de ganancia en los últimos 6 meses."
+    },
+    "lead_funnel": {
+      "title": "Embudo de Clientes Potenciales",
+      "description": "Etapas de conversión de visitantes a acuerdos ganados."
+    },
+    "product_analytics": {
+      "title": "Análisis de Productos",
+      "description": "Distribución de ventas por categoría de producto."
+    },
+    "team_performance": {
+      "title": "Rendimiento del Equipo",
+      "description": "Métricas clave para sus principales representantes de ventas.",
+      "rep": "Rep.",
+      "type": "Tipo",
+      "leads": "Clientes Pot.",
+      "conversion": "Conversión",
+      "avg_deal": "Acuerdo Prom.",
+      "status": "Estado"
+    },
+    "ai_insights": {
+      "title": "Ideas de IA",
+      "description": "Recomendaciones impulsadas por IA.",
+      "trend_alert": "Alerta de Tendencia",
+      "prediction": "Predicción",
+      "suggestion": "Sugerencia",
+      "ask_ai_placeholder": "Pregúntale a la IA... (ej: 'Pronostica las ventas para el próximo trimestre')",
+      "get_insight": "Obtener Idea"
+    }
+  },
+  "leads": {
+    "title": "Gestión de Clientes Potenciales",
+    "description": "Vista Kanban de todos sus clientes potenciales.",
+    "search_placeholder": "Buscar por nombre, empresa...",
+    "filters": "Filtros",
+    "new_lead": "Nuevo Cliente Potencial",
+    "create_new_lead": "Crear un Nuevo Cliente Potencial",
+    "create_new_lead_desc": "Complete la información para agregar un nuevo cliente potencial.",
+    "name": "Nombre",
+    "company": "Empresa",
+    "email": "Correo electrónico",
+    "phone": "Teléfono",
+    "interest": "Interés",
+    "interest_placeholder": "ej. Producto A, Servicio B",
+    "source": "Fuente",
+    "select_source": "Seleccione una fuente",
+    "create_lead_button": "Crear Cliente Potencial",
+    "drag_leads_here": "Arrastre los clientes potenciales aquí",
+    "call": "Llamar",
+    "schedule": "Programar",
+    "convert": "Convertir",
+    "overview": "Resumen",
+    "timeline": "Cronología",
+    "files": "Archivos",
+    "ai_assistant": "Asistente de IA",
+    "lead_details": "Detalles del Cliente Potencial",
+    "ai_score": "Puntuación de IA"
+  },
+  "common": {
+    "sources": {
+      "website": "Sitio web",
+      "referral": "Referencia",
+      "exhibition": "Exhibición",
+      "walk_in": "Visita sin cita"
+    },
+    "status": {
+      "new": "Nuevo",
+      "contacted": "Contactado",
+      "qualified": "Calificado",
+      "proposal": "Propuesta",
+      "won": "Ganado",
+      "lost": "Perdido"
+    }
+  }
+}

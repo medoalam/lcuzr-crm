@@ -1,0 +1,198 @@
+{
+  "landing": {
+    "title": "Reinvent Your Workflow with LCUZR CRM",
+    "description": "The all-in-one platform to centralize your sales, tasks, and team structure for unparalleled growth.",
+    "getStarted": "Get Started Free",
+    "bookDemo": "Book a Demo",
+    "trustedBy": "TRUSTED BY THE WORLD'S MOST INNOVATIVE TEAMS",
+    "featuresTitle": "Everything You Need, Nothing You Don't",
+    "featuresDescription": "LCUZR is packed with powerful features designed to streamline your workflow and boost productivity.",
+    "dashboardTitle": "Your Business, At a Glance",
+    "dashboardDescription": "A powerful, intuitive dashboard that brings all your most important information into one place.",
+    "whyUsTitle": "Why LCUZR is Different",
+    "whyUsDescription": "We built the CRM we always wanted. Flexible, powerful, and designed for modern teams who need to move fast.",
+    "learnMore": "Learn More",
+    "useCasesTitle": "Built for Every Team",
+    "useCasesDescription": "No matter your industry or size, LCUZR adapts to your unique workflow and business needs.",
+    "testimonialsTitle": "Don't Just Take Our Word For It",
+    "testimonialsDescription": "Hear from our satisfied customers who have transformed their businesses with LCUZR CRM.",
+    "pricingTitle": "Flexible Pricing for Teams of All Sizes",
+    "pricingDescription": "Start for free, and unlock more power as you grow. No hidden fees. No long-term contracts.",
+    "monthly": "Monthly",
+    "annually": "Annually",
+    "save": "Save 40%",
+    "contactEnterprise": "Have more than 50 users? <1>Contact us for our Enterprise plan.</1>",
+    "faqTitle": "Frequently Asked Questions",
+    "chat": "Open Chat"
+  },
+  "sidebar": {
+    "dashboard": "Dashboard",
+    "analytics": "Analytics",
+    "leads": "Leads",
+    "sales": "Sales",
+    "products": "Products",
+    "branches": "Branches",
+    "team_structure": "Team Structure",
+    "billing": "Billing",
+    "ai_insights": "AI Insights",
+    "reports": "Reports",
+    "settings": "Settings",
+    "change_language": "Change Language",
+    "logout": "Logout"
+  },
+  "dashboard": {
+    "title": "Welcome Back!",
+    "welcome": "Welcome back, {{name}}",
+    "create_lead": "Create Lead",
+    "add_quotation": "Add Quotation",
+    "assign_task": "Assign Task",
+    "total_revenue": "Total Revenue",
+    "active_leads": "Active Leads",
+    "conversion_rate": "Conversion Rate",
+    "sales": "Sales",
+    "from_last_month": "from last month",
+    "revenue_overview": "Revenue Overview",
+    "recent_leads": "Recent Leads",
+    "you_have_n_active_leads": "You have {{count}} active leads.",
+    "customer": "Customer",
+    "status": "Status",
+    "score": "Score",
+    "admin_cockpit": {
+      "title": "Admin Cockpit",
+      "description": "System-level overview, KPIs, and controls.",
+      "critical_alerts": "Critical Alerts ({{count}})",
+      "alert1_text": "{{count}} new leads are unassigned. <1>Assign Now</1>",
+      "alert2_text": "{{count}} quotations are overdue. <1>Review</1>",
+      "business_pulse": "Business Pulse",
+      "per_month": "/ mo",
+      "new_leads_today": "New Leads Today",
+      "conv_rate": "Conv. Rate",
+      "active_quotes": "Active Quotes",
+      "top_branch": "Top Branch",
+      "system_health": "System Health",
+      "crm_status": "CRM Status",
+      "nominal": "Nominal",
+      "last_sync": "Last Sync",
+      "ago": "ago",
+      "inactive_users": "Inactive Users",
+      "failed_jobs": "Failed Jobs",
+      "team_snapshot": "Team Snapshot",
+      "online_staff": "Online Staff",
+      "most_active": "Most Active",
+      "late_follow_ups": "Late Follow-ups",
+      "unassigned_leads": "Unassigned Leads",
+      "quick_actions": "Quick Actions",
+      "add_user": "Add User",
+      "roles": "Roles",
+      "export": "Export",
+      "broadcast": "Broadcast",
+      "lockdown": "System Lockdown"
+    },
+    "sales_manager_overview": {
+        "title": "Sales Manager Overview",
+        "description": "A custom dashboard for sales managers."
+    },
+    "showroom_rep_overview": {
+        "title": "Showroom Rep Overview",
+        "description": "A custom dashboard for showroom representatives."
+    },
+    "field_rep_overview": {
+        "title": "Field Rep Overview",
+        "description": "A custom dashboard for field representatives.",
+        "next_visit": "Next Visit",
+        "scheduled_for": "Scheduled for {{time}}",
+        "start_navigation": "Start Navigation"
+    }
+  },
+  "analytics": {
+    "title": "Analytics & Reports",
+    "description": "Deep dive into your business performance.",
+    "filter_by_rep": "Filter by Rep",
+    "all_reps": "All Reps",
+    "export": "Export",
+    "kpi": {
+      "total_leads": "Total Leads",
+      "total_sales": "Total Sales",
+      "conversion_rate": "Conversion Rate",
+      "revenue": "Revenue",
+      "top_rep": "Top Rep",
+      "change_from_last_month": "{{change}} from last month",
+      "this_month": "This month"
+    },
+    "sales_over_time": {
+      "title": "Sales Over Time",
+      "description": "Revenue and win-rate performance over the last 6 months."
+    },
+    "lead_funnel": {
+      "title": "Lead Funnel",
+      "description": "Conversion stages from visitors to won deals."
+    },
+    "product_analytics": {
+      "title": "Product Analytics",
+      "description": "Sales distribution by product category."
+    },
+    "team_performance": {
+      "title": "Team Performance",
+      "description": "Key metrics for your top sales representatives.",
+      "rep": "Rep",
+      "type": "Type",
+      "leads": "Leads",
+      "conversion": "Conversion",
+      "avg_deal": "Avg. Deal",
+      "status": "Status"
+    },
+    "ai_insights": {
+      "title": "AI Insights",
+      "description": "AI-powered recommendations.",
+      "trend_alert": "Trend Alert",
+      "prediction": "Prediction",
+      "suggestion": "Suggestion",
+      "ask_ai_placeholder": "Ask AI... (e.g., 'Forecast sales for next quarter')",
+      "get_insight": "Get Insight"
+    }
+  },
+  "leads": {
+    "title": "Lead Management",
+    "description": "Kanban overview of all your leads.",
+    "search_placeholder": "Search by name, company...",
+    "filters": "Filters",
+    "new_lead": "New Lead",
+    "create_new_lead": "Create a New Lead",
+    "create_new_lead_desc": "Fill in the information to add a new lead.",
+    "name": "Name",
+    "company": "Company",
+    "email": "Email",
+    "phone": "Phone",
+    "interest": "Interest",
+    "interest_placeholder": "e.g. Product A, Service B",
+    "source": "Source",
+    "select_source": "Select a source",
+    "create_lead_button": "Create Lead",
+    "drag_leads_here": "Drag leads here",
+    "call": "Call",
+    "schedule": "Schedule",
+    "convert": "Convert",
+    "overview": "Overview",
+    "timeline": "Timeline",
+    "files": "Files",
+    "ai_assistant": "AI Assistant",
+    "lead_details": "Lead Details",
+    "ai_score": "AI Score"
+  },
+  "common": {
+    "sources": {
+      "website": "Website",
+      "referral": "Referral",
+      "exhibition": "Exhibition",
+      "walk_in": "Walk-in"
+    },
+    "status": {
+      "new": "New",
+      "contacted": "Contacted",
+      "qualified": "Qualified",
+      "proposal": "Proposal",
+      "won": "Won",
+      "lost": "Lost"
+    }
+  }
+}

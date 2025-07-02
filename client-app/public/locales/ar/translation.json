@@ -1,0 +1,199 @@
+{
+  "landing": {
+    "title": "أعد ابتكار سير عملك مع LCUZR CRM",
+    "description": "المنصة المتكاملة لمركزية مبيعاتك ومهامك وهيكل فريقك لتحقيق نمو لا مثيل له.",
+    "getStarted": "ابدأ مجانًا",
+    "bookDemo": "احجز عرضًا توضيحيًا",
+    "trustedBy": "موثوق به من قبل الفرق الأكثر ابتكارًا في العالم",
+    "featuresTitle": "كل ما تحتاجه، ولا شيء لا تحتاجه",
+    "featuresDescription": "LCUZR مليء بالميزات القوية المصممة لتبسيط سير عملك وزيادة الإنتاجية.",
+    "dashboardTitle": "عملك، في لمحة",
+    "dashboardDescription": "لوحة تحكم قوية وبديهية تجمع كل معلوماتك الأكثر أهمية في مكان واحد.",
+    "whyUsTitle": "لماذا LCUZR مختلف",
+    "whyUsDescription": "لقد بنينا نظام إدارة علاقات العملاء الذي طالما أردناه. مرن وقوي ومصمم للفرق الحديثة التي تحتاج إلى التحرك بسرعة.",
+    "learnMore": "اعرف المزيد",
+    "useCasesTitle": "مصمم لكل فريق",
+    "useCasesDescription": "بغض النظر عن مجالك أو حجمك، يتكيف LCUZR مع سير عملك واحتياجات عملك الفريدة.",
+    "testimonialsTitle": "لا تأخذ كلمتنا فقط",
+    "testimonialsDescription": "استمع إلى عملائنا الراضين الذين غيروا أعمالهم مع LCUZR CRM.",
+    "pricingTitle": "تسعير مرن للفرق من جميع الأحجام",
+    "pricingDescription": "ابدأ مجانًا، واطلق العنان لمزيد من القوة مع نموك. لا رسوم خفية. لا عقود طويلة الأجل.",
+    "monthly": "شهريًا",
+    "annually": "سنويًا",
+    "save": "وفر 40%",
+    "contactEnterprise": "هل لديك أكثر من 50 مستخدمًا؟ <1>اتصل بنا للحصول على خطة المؤسسة الخاصة بنا.</1>",
+    "faqTitle": "الأسئلة الشائعة",
+    "chat": "افتح الدردشة"
+  },
+  "sidebar": {
+    "dashboard": "لوحة التحكم",
+    "analytics": "التحليلات",
+    "leads": "العملاء المحتملون",
+    "sales": "المبيعات",
+    "products": "المنتجات",
+    "branches": "الفروع",
+    "team_structure": "هيكل الفريق",
+    "billing": "الفواتير",
+    "ai_insights": "رؤى الذكاء الاصطناعي",
+    "reports": "التقارير",
+    "settings": "الإعدادات",
+    "change_language": "تغيير اللغة",
+    "logout": "تسجيل الخروج"
+  },
+  "dashboard": {
+    "title": "مرحباً بعودتك!",
+    "welcome": "أهلاً بك مرة أخرى، {{name}}",
+    "create_lead": "إنشاء عميل محتمل",
+    "add_quotation": "إضافة عرض سعر",
+    "assign_task": "تعيين مهمة",
+    "total_revenue": "إجمالي الإيرادات",
+    "active_leads": "العملاء المحتملون النشطون",
+    "conversion_rate": "معدل التحويل",
+    "sales": "المبيعات",
+    "from_last_month": "عن الشهر الماضي",
+    "revenue_overview": "نظرة عامة على الإيرادات",
+    "recent_leads": "أحدث العملاء المحتملين",
+    "you_have_n_active_leads": "لديك {{count}} من العملاء المحتملين النشطين.",
+    "customer": "العميل",
+    "status": "الحالة",
+    "score": "التقييم",
+    "admin_cockpit": {
+      "title": "لوحة تحكم المسؤول",
+      "description": "نظرة عامة على مستوى النظام ومؤشرات الأداء الرئيسية والتحكم.",
+      "critical_alerts": "تنبيهات حرجة ({{count}})",
+      "alert1_text": "هناك {{count}} عملاء محتملين جدد غير معينين. <1>قم بالتعيين الآن</1>",
+      "alert2_text": "{{count}} عروض أسعار متأخرة تحتاج إلى مراجعة. <1>مراجعة</1>",
+      "business_pulse": "نبض الأعمال",
+      "per_month": "/ شهر",
+      "new_leads_today": "عملاء جدد اليوم",
+      "conv_rate": "معدل التحويل",
+      "active_quotes": "عروض أسعار نشطة",
+      "top_branch": "أفضل فرع",
+      "system_health": "صحة النظام",
+      "crm_status": "حالة CRM",
+      "nominal": "اسمي",
+      "last_sync": "آخر مزامنة",
+      "ago": "منذ",
+      "inactive_users": "مستخدمون غير نشطين",
+      "failed_jobs": "مهام فاشلة",
+      "team_snapshot": "لقطة سريعة للفريق",
+      "online_staff": "الموظفون المتصلون",
+      "most_active": "الأكثر نشاطًا",
+      "late_follow_ups": "متابعات متأخرة",
+      "unassigned_leads": "عملاء غير معينين",
+      "quick_actions": "إجراءات سريعة",
+      "add_user": "إضافة مستخدم",
+      "roles": "الأدوار",
+      "export": "تصدير",
+      "broadcast": "بث",
+      "lockdown": "إغلاق النظام"
+    },
+    "sales_manager_overview": {
+        "title": "نظرة عامة لمدير المبيعات",
+        "description": "لوحة تحكم مخصصة لمديري المبيعات."
+    },
+    "showroom_rep_overview": {
+        "title": "نظرة عامة لممثل المعرض",
+        "description": "لوحة تحكم مخصصة لممثلي المعرض."
+    },
+    "field_rep_overview": {
+        "title": "نظرة عامة للممثل الميداني",
+        "description": "لوحة تحكم مخصصة للممثلين الميدانيين.",
+        "next_visit": "الزيارة التالية",
+        "scheduled_for": "مجدولة في {{time}}",
+        "start_navigation": "بدء الملاحة"
+    }
+  },
+  "analytics": {
+    "title": "التحليلات والتقارير",
+    "description": "نظرة عميقة على أداء عملك.",
+    "filter_by_rep": "تصفية حسب المندوب",
+    "all_reps": "كل المندوبين",
+    "export": "تصدير",
+    "kpi": {
+      "total_leads": "إجمالي العملاء المحتملين",
+      "total_sales": "إجمالي المبيعات",
+      "conversion_rate": "معدل التحويل",
+      "revenue": "الإيرادات",
+      "top_rep": "أفضل مندوب",
+      "change_from_last_month": "{{change}} عن الشهر الماضي",
+      "this_month": "هذا الشهر"
+    },
+    "sales_over_time": {
+      "title": "المبيعات عبر الزمن",
+      "description": "أداء الإيرادات ومعدل الفوز خلال الستة أشهر الماضية."
+    },
+    "lead_funnel": {
+      "title": "قمع العملاء المحتملين",
+      "description": "مراحل تحويل العملاء من زوار إلى فوز."
+    },
+    "product_analytics": {
+      "title": "تحليلات المنتج",
+      "description": "توزيع المبيعات حسب فئة المنتج."
+    },
+    "team_performance": {
+      "title": "أداء الفريق",
+      "description": "المقاييس الرئيسية لأفضل مندوبي المبيعات لديك.",
+      "rep": "المندوب",
+      "type": "النوع",
+      "leads": "العملاء",
+      "conversion": "التحويل",
+      "avg_deal": "متوسط الصفقة",
+      "status": "الحالة"
+    },
+    "ai_insights": {
+      "title": "رؤى الذكاء الاصطناعي",
+      "description": "توصيات مدعومة بالذكاء الاصطناعي.",
+      "trend_alert": "تنبيه اتجاه",
+      "prediction": "توقع",
+      "suggestion": "اقتراح",
+      "ask_ai_placeholder": "اسأل الذكاء الاصطناعي... (مثال: توقع مبيعات الربع القادم)",
+      "get_insight": "احصل على رؤية"
+    }
+  },
+  "leads": {
+    "title": "إدارة العملاء المحتملين",
+    "description": "نظرة عامة على لوحة كانبان لجميع العملاء المحتملين.",
+    "search_placeholder": "بحث بالاسم أو الشركة...",
+    "filters": "مرشحات",
+    "new_lead": "عميل محتمل جديد",
+    "create_new_lead": "إنشاء عميل محتمل جديد",
+    "create_new_lead_desc": "املأ المعلومات لإضافة عميل محتمل جديد.",
+    "name": "الاسم",
+    "company": "الشركة",
+    "email": "البريد الإلكتروني",
+    "phone": "الهاتف",
+    "interest": "الاهتمام",
+    "interest_placeholder": "مثال: منتج أ، خدمة ب",
+    "source": "المصدر",
+    "select_source": "اختر مصدرًا",
+    "create_lead_button": "إنشاء عميل محتمل",
+    "drag_leads_here": "اسحب العملاء المحتملين هنا",
+    "call": "اتصال",
+    "schedule": "جدولة",
+    "convert": "تحويل",
+
+    "overview": "نظرة عامة",
+    "timeline": "الخط الزمني",
+    "files": "الملفات",
+    "ai_assistant": "مساعد الذكاء الاصطناعي",
+    "lead_details": "تفاصيل العميل المحتمل",
+    "ai_score": "تقييم الذكاء الاصطناعي"
+  },
+  "common": {
+    "sources": {
+      "website": "الموقع الإلكتروني",
+      "referral": "إحالة",
+      "exhibition": "معرض",
+      "walk_in": "زيارة مباشرة"
+    },
+    "status": {
+      "new": "جديد",
+      "contacted": "تم التواصل",
+      "qualified": "مؤهل",
+      "proposal": "عرض سعر",
+      "won": "فوز",
+      "lost": "خسارة"
+    }
+  }
+}

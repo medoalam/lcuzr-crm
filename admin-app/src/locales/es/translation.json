@@ -1,0 +1,591 @@
+
+{
+  "header": {
+    "searchPlaceholder": "Búsqueda rápida...",
+    "notifications": "Notificaciones",
+    "profile": "Perfil",
+    "billing": "Facturación",
+    "settings": "Ajustes",
+    "logout": "Cerrar sesión",
+    "admin": "Administrador",
+    "adminEmail": "admin@lcuzr.com",
+    "switchLanguage": "Cambiar idioma"
+  },
+  "sidebar": {
+    "dashboard": "Tablero",
+    "companies": "Compañías",
+    "billing": "Facturación",
+    "support": "Soporte",
+    "users": "Gestión de usuarios",
+    "gateway": "Gateway",
+    "settings": "Ajustes"
+  },
+  "dashboardTab": {
+    "title": "Tablero",
+    "totalCompanies": "Total de Compañías",
+    "totalCompaniesDesc": "+25 desde el mes pasado",
+    "activeUsers": "Usuarios Activos",
+    "activeUsersDesc": "+180 desde el mes pasado",
+    "mrr": "Ingresos Mensuales Recurrentes (MRR)",
+    "mrrDesc": "+2.1% desde el mes pasado",
+    "openSupportTickets": "Tickets de Soporte Abiertos",
+    "openSupportTicketsDesc": "+5 tickets nuevos hoy",
+    "revenueGrowthTitle": "Crecimiento de Ingresos",
+    "revenueGrowthDesc": "Ingresos mensuales de los últimos 6 meses.",
+    "subscriptionPlansTitle": "Planes de Suscripción",
+    "subscriptionPlansDesc": "Distribución de planes activos.",
+    "recentActivityTitle": "Actividad Reciente",
+    "recentActivityDesc": "Un feed de las últimas acciones del sistema y de los usuarios.",
+    "recentSupportTicketsTitle": "Tickets de Soporte Recientes",
+    "recentSupportTicketsDesc": "Últimos tickets de clientes.",
+    "tableSubject": "Asunto",
+    "tableCompany": "Compañía",
+    "tableStatus": "Estado",
+    "tableActions": "Acciones"
+  },
+  "common": {
+    "save": "Guardar Cambios",
+    "create": "Crear",
+    "cancel": "Cancelar",
+    "delete": "Eliminar",
+    "edit": "Editar",
+    "add": "Añadir",
+    "submit": "Enviar",
+    "actions": "Acciones",
+    "status": "Estado",
+    "error": "Error",
+    "success": "Éxito",
+    "loading": "Cargando...",
+    "search": "Buscar...",
+    "filter": "Filtrar...",
+    "viewDetails": "Ver Detalles",
+    "openMenu": "Abrir Menú"
+  },
+  "companies": {
+    "title": "Compañías",
+    "description": "Gestionar y monitorear todas las compañías de clientes.",
+    "addCompany": "Añadir Compañía",
+    "filterPlaceholder": "Filtrar por nombre de compañía o industria...",
+    "status": {
+      "active": "Activo",
+      "trial": "Prueba",
+      "suspended": "Suspendido"
+    },
+    "table": {
+      "companyName": "Nombre de la Compañía",
+      "industry": "Industria",
+      "country": "País",
+      "users": "Usuarios",
+      "usage": "Uso",
+      "plan": "Plan de Suscripción"
+    },
+    "actions": {
+      "edit": "Editar Compañía",
+      "view": "Ver Detalles",
+      "ai": "Acciones de IA",
+      "predictUsage": "Predecir Uso",
+      "suggestUpgrade": "Sugerir Actualización",
+      "delete": "Eliminar Compañía"
+    },
+    "deleteDialog": {
+      "title": "¿Estás seguro?",
+      "description": "Esta acción no se puede deshacer. Esto eliminará permanentemente la compañía {{name}}.",
+      "deleting": "Eliminando..."
+    },
+    "aiDialog": {
+      "predictionTitle": "Predicción de Uso para {{companyName}}",
+      "suggestionTitle": "Sugerencia de Actualización para {{companyName}}",
+      "description": "Este es un análisis generado por IA. Por favor, revísalo cuidadosamente.",
+      "analyzing": "Analizando...",
+      "result": {
+        "recommendation": "Recomendación",
+        "reasoning": "Razonamiento",
+        "predictedUsage": "Uso Previsto",
+        "suggestion": "Sugerencia",
+        "confidence": "Nivel de Confianza"
+      }
+    },
+    "toast": {
+      "deleteSuccess": "Compañía eliminada con éxito."
+    }
+  },
+  "companyForm": {
+    "editTitle": "Editar Compañía",
+    "addTitle": "Añadir Nueva Compañía",
+    "editDescription": "Actualizar los detalles de esta compañía.",
+    "addDescription": "Rellenar los detalles de la nueva compañía.",
+    "labels": {
+      "name": "Nombre de la Compañía",
+      "industry": "Industria",
+      "country": "País",
+      "email": "Email de Contacto",
+      "employees": "Número de Empleados",
+      "status": "Estado",
+      "plan": "Plan"
+    },
+    "placeholders": {
+      "name": "Innovate Inc.",
+      "industry": "Tecnología",
+      "country": "ej., EE.UU.",
+      "email": "contacto@compañía.com"
+    },
+    "selects": {
+      "employees": {
+        "placeholder": "Seleccione un tamaño",
+        "s1": "1-10 empleados",
+        "s2": "11-50 empleados",
+        "s3": "51-200 empleados",
+        "s4": "201-1000 empleados",
+        "s5": "1000+ empleados"
+      },
+      "status": {
+        "placeholder": "Seleccione un estado",
+        "active": "Activo",
+        "trial": "Prueba",
+        "suspended": "Suspendido"
+      },
+      "plan": {
+        "placeholder": "Seleccione un plan",
+        "basic": "Básico",
+        "pro": "Pro",
+        "enterprise": "Empresa"
+      }
+    },
+    "save": "Guardar Cambios",
+    "create": "Crear Compañía",
+    "toast": {
+      "addSuccess": "Compañía añadida con éxito.",
+      "updateSuccess": "Compañía actualizada con éxito."
+    }
+  },
+  "billing": {
+    "summary": {
+      "activeSubscriptions": "Suscripciones Activas",
+      "activeSubscriptionsDesc": "Total de planes de pago activos",
+      "mrr": "Ingresos Recurrentes Mensuales",
+      "mrrDesc": "+20.1% desde el mes pasado",
+      "upcomingRenewals": "Próximas Renovaciones",
+      "upcomingRenewalsDesc": "En los próximos 30 días",
+      "overdueInvoices": "Facturas Vencidas",
+      "overdueInvoicesDesc": "Total pendientes o fallidas"
+    },
+    "history": {
+      "title": "Historial de Facturación",
+      "description": "Un registro de todas las facturas y su estado. Puede descargar o reenviar facturas desde aquí.",
+      "filterPlaceholder": "Buscar por factura o compañía...",
+      "filterByStatus": "Filtrar por estado",
+      "allStatuses": "Todos los Estados",
+      "filterByPlan": "Filtrar por plan",
+      "allPlans": "Todos los Planes",
+      "pickDateRange": "Elija un rango de fechas"
+    },
+    "table": {
+      "invoiceId": "ID de Factura",
+      "company": "Compañía",
+      "date": "Fecha",
+      "paymentMethod": "Método de Pago",
+      "plan": "Plan de Suscripción",
+      "nextBilling": "Próxima Factura",
+      "amount": "Cantidad"
+    },
+    "status": {
+      "paid": "Pagado",
+      "pending": "Pendiente",
+      "failed": "Fallido",
+      "refunded": "Reembolsado"
+    },
+    "actions": {
+      "invoiceActions": "Acciones de Factura",
+      "download": "Descargar Factura",
+      "retryPayment": "Reintentar Pago",
+      "sendReminder": "Enviar Recordatorio",
+      "resendInvoice": "Reenviar Factura",
+      "subscription": "Suscripción",
+      "suspend": "Suspender Suscripción",
+      "cancel": "Cancelar Suscripción"
+    }
+  },
+  "support": {
+    "title": "Tickets de Soporte",
+    "description": "Gestionar todas las solicitudes de soporte al cliente.",
+    "newTicket": "Nuevo Ticket",
+    "filterPlaceholder": "Buscar por asunto o compañía...",
+    "filterByStatus": "Filtrar por estado",
+    "allStatuses": "Todos los Estados",
+    "filterByPriority": "Filtrar por prioridad",
+    "allPriorities": "Todas las Prioridades",
+    "summary": {
+      "openTickets": "Tickets Abiertos",
+      "openTicketsDesc": "Esperando primera respuesta",
+      "inProgress": "Tickets en Progreso",
+      "inProgressDesc": "Actualmente en gestión",
+      "avgResponse": "Tiempo Medio de Respuesta",
+      "avgResponseTime": "4.2 horas",
+      "avgResponseDesc": "Media de los últimos 7 días",
+      "resolvedToday": "Resueltos Hoy",
+      "resolvedTodayDesc": "+2 en comparación con ayer"
+    },
+    "table": {
+      "subject": "Asunto",
+      "company": "Compañía",
+      "priority": "Prioridad",
+      "createdDate": "Fecha de Creación",
+      "assignedTo": "Asignado a"
+    },
+    "priority": {
+      "high": "Alta",
+      "medium": "Media",
+      "low": "Baja"
+    },
+    "status": {
+      "open": "Abierto",
+      "inprogress": "En Progreso",
+      "resolved": "Resuelto",
+      "closed": "Cerrado"
+    },
+    "actions": {
+      "changeStatus": "Cambiar Estado"
+    },
+    "toast": {
+      "statusUpdated": "Estado del ticket actualizado."
+    }
+  },
+  "userManagement": {
+    "title": "Gestión de Usuarios",
+    "description": "Invitar, gestionar y ver todos los usuarios del sistema.",
+    "inviteUser": "Invitar Usuario",
+    "filterPlaceholder": "Filtrar por nombre, email o compañía...",
+    "summary": {
+      "totalUsers": "Usuarios Totales",
+      "totalUsersDesc": "+2 desde la semana pasada",
+      "activeUsers": "Usuarios Activos",
+      "activeUsersDesc": "Activos en la plataforma"
+    },
+    "table": {
+      "user": "Usuario",
+      "company": "Compañía",
+      "role": "Rol",
+      "lastLogin": "Último Acceso"
+    },
+    "status": {
+      "active": "Activo",
+      "suspended": "Suspendido"
+    },
+    "actions": {
+      "edit": "Editar Usuario",
+      "suspend": "Suspender Usuario",
+      "activate": "Activar Usuario",
+      "delete": "Eliminar Usuario"
+    },
+    "deleteDialog": {
+      "title": "¿Estás seguro?",
+      "description": "Esta acción no se puede deshacer. Esto eliminará permanentemente al usuario {{name}}."
+    },
+    "toast": {
+      "statusUpdated": "Estado del usuario actualizado.",
+      "deleted": "Usuario eliminado con éxito."
+    }
+  },
+  "userForm": {
+    "editTitle": "Editar Usuario",
+    "addTitle": "Invitar Nuevo Usuario",
+    "editDescription": "Actualizar los detalles de este usuario.",
+    "addDescription": "Rellenar los detalles del nuevo usuario. Recibirán un email de invitación.",
+    "labels": {
+      "name": "Nombre Completo",
+      "email": "Dirección de Email",
+      "company": "Compañía",
+      "role": "Rol",
+      "status": "Estado"
+    },
+    "placeholders": {
+      "name": "Juan Pérez",
+      "email": "usuario@compañía.com",
+      "company": "Innovate Inc."
+    },
+    "selects": {
+      "role": {
+        "placeholder": "Seleccione un rol",
+        "admin": "Admin",
+        "member": "Miembro",
+        "viewer": "Lector"
+      },
+      "status": {
+        "placeholder": "Seleccione un estado",
+        "active": "Activo",
+        "suspended": "Suspendido"
+      }
+    },
+    "save": "Guardar Cambios",
+    "create": "Enviar Invitación",
+    "toast": {
+      "addSuccess": "Usuario invitado con éxito.",
+      "updateSuccess": "Usuario actualizado con éxito."
+    }
+  },
+  "gateway": {
+    "token": {
+      "title": "Gestión de Tokens de API",
+      "description": "Crear, gestionar y revocar tokens de API para servicios internos.",
+      "createToken": "Crear Token",
+      "table": {
+        "owner": "Propietario",
+        "scopes": "Permisos",
+        "lastUsed": "Último Uso",
+        "tokenId": "ID de Token"
+      },
+      "status": {
+        "active": "Activo",
+        "revoked": "Revocado"
+      },
+      "actions": {
+        "copy": "Copiar Token",
+        "edit": "Editar Permisos",
+        "revoke": "Revocar Token"
+      },
+      "form": {
+        "title": "Crear Nuevo Token de API",
+        "description": "Configurar el propietario y los permisos para el nuevo token. El token se mostrará una vez después de la creación.",
+        "ownerLabel": "Propietario",
+        "ownerPlaceholder": "ej., servicio_facturacion",
+        "scopesLabel": "Permisos",
+        "createButton": "Crear Token",
+        "ownerRequired": "El propietario del token es obligatorio.",
+        "scopeRequired": "Se debe seleccionar al menos un permiso."
+      },
+      "revokeDialog": {
+        "title": "¿Seguro que quieres revocar este token?",
+        "description": "Esta acción no se puede deshacer. El token para {{owner}} (ID: {{id}}...) será desactivado permanentemente.",
+        "confirm": "Sí, Revocar Token"
+      },
+      "toast": {
+        "created": "El nuevo token de API ha sido creado con éxito.",
+        "revoked": "El token para {{owner}} ha sido revocado."
+      }
+    },
+    "audit": {
+      "title": "Registros de Auditoría",
+      "description": "Rastrear toda la actividad de usuarios y sistema en la plataforma. Filtrar por acción, usuario, IP o estado.",
+      "filterPlaceholder": "Filtrar registros...",
+      "table": {
+        "timestamp": "Marca de Tiempo",
+        "action": "Acción",
+        "user": "Usuario / Servicio",
+        "ip": "Dirección IP",
+        "duration": "Duración"
+      },
+      "noLogs": "No se encontraron registros que coincidan con su filtro."
+    }
+  },
+  "settings": {
+    "tabs": {
+      "general": "General",
+      "security": "Seguridad",
+      "billing": "Facturación",
+      "plans": "Planes",
+      "integrations": "Integraciones",
+      "notifications": "Notificaciones",
+      "roles": "Roles"
+    },
+    "toast": {
+      "saveSuccessTitle": "Ajustes Guardados",
+      "saveSuccessDescription": "Tus ajustes de {{section}} han sido actualizados con éxito."
+    },
+    "general": {
+      "title": "Ajustes Generales",
+      "description": "Gestiona la información básica y los valores predeterminados de tu aplicación.",
+      "appNameLabel": "Nombre de la Aplicación",
+      "contactEmailLabel": "Email de Contacto",
+      "languageLabel": "Idioma Predeterminado",
+      "languagePlaceholder": "Seleccionar idioma",
+      "timezoneLabel": "Zona Horaria",
+      "timezonePlaceholder": "Seleccionar zona horaria"
+    },
+    "security": {
+      "title": "Ajustes de Seguridad",
+      "description": "Configura las políticas de seguridad y la autenticación de usuarios.",
+      "twoFactorAuthLabel": "Autenticación de Dos Factores (2FA)",
+      "twoFactorAuthDescription": "Requerir un segundo paso de autenticación para todos los usuarios.",
+      "sessionTimeoutLabel": "Tiempo de Espera de la Sesión (minutos)",
+      "passwordPolicyLabel": "Política de Contraseñas",
+      "passwordPolicyPlaceholder": "Seleccionar política",
+      "passwordPolicyLow": "Baja (6+ caracteres)",
+      "passwordPolicyMedium": "Media (8+ caracteres, un número)",
+      "passwordPolicyStrong": "Fuerte (12+ caracteres, símbolos, mayúsculas y minúsculas)"
+    },
+    "billing": {
+      "title": "Ajustes de Facturación",
+      "description": "Gestiona la moneda predeterminada, las tasas de impuestos y los detalles de las facturas.",
+      "taxRateLabel": "Tasa de Impuestos Predeterminada (%)",
+      "currencyLabel": "Moneda Predeterminada",
+      "currencyPlaceholder": "Seleccionar moneda",
+      "invoiceFooterLabel": "Texto del Pie de Página de la Factura"
+    },
+    "integrations": {
+      "title": "Integraciones",
+      "description": "Conecta con aplicaciones y servicios de terceros.",
+      "slackDescription": "Recibe notificaciones en tu espacio de trabajo de Slack.",
+      "zapierDescription": "Automatiza flujos de trabajo con miles de aplicaciones.",
+      "connect": "Conectar"
+    },
+    "notifications": {
+      "title": "Ajustes de Notificaciones",
+      "description": "Gestiona cómo tú y tu equipo reciben alertas.",
+      "systemAlertsLabel": "Alertas del Sistema",
+      "systemAlertsDescription": "Recibe alertas para eventos críticos del sistema.",
+      "dailySummaryLabel": "Resumen Diario por Email",
+      "dailySummaryDescription": "Obtén un resumen diario de la actividad de la plataforma.",
+      "billingRemindersLabel": "Recordatorios de Facturación",
+      "billingRemindersDescription": "Recibe notificaciones sobre pagos próximos y fallidos."
+    },
+    "plans": {
+      "title": "Planes de Suscripción",
+      "description": "Gestiona precios, características y disponibilidad de tus planes de suscripción.",
+      "monthly": "Mensual",
+      "yearly": "Anual (40% de descuento)",
+      "addPlan": "Añadir Plan",
+      "customPrice": "Personalizado",
+      "free": "Gratis",
+      "perMonth": "/mes",
+      "perYear": "/año",
+      "subscriberCount": "{{count}} compañías activas",
+      "archive": "Archivar",
+      "activate": "Activar",
+      "status": {
+        "active": "Activo",
+        "archived": "Archivado"
+      },
+      "badge": {
+        "none": "Ninguna",
+        "popular": "Popular",
+        "best_value": "Mejor Valor"
+      },
+      "toast": {
+        "updated": "Plan actualizado con éxito.",
+        "created": "Plan creado con éxito.",
+        "archived": "El plan ha sido archivado y no estará disponible para nuevos clientes.",
+        "activated": "El plan está ahora activo."
+      },
+      "archiveDialog": {
+        "title": "¿Estás seguro?",
+        "description": "Esto archivará el plan {{name}}. Los suscriptores existentes no se verán afectados, pero ningún cliente nuevo podrá suscribirse a él.",
+        "confirm": "Sí, Archivar Plan"
+      },
+      "form": {
+        "editTitle": "Editar Plan",
+        "createTitle": "Crear Nuevo Plan",
+        "editDescription": "Actualizar los detalles de este plan de suscripción.",
+        "createDescription": "Rellenar los detalles del nuevo plan.",
+        "labels": {
+          "name": "Nombre del Plan",
+          "price": "Precio Mensual ($)",
+          "description": "Descripción",
+          "features": "Características",
+          "notes": "Notas Internas (Opcional)",
+          "badge": "Insignia"
+        },
+        "placeholders": {
+          "name": "ej., Pro",
+          "price": "49 o Personalizado",
+          "description": "Una breve descripción del plan.",
+          "features": "Una característica por línea...",
+          "notes": "Notas para el equipo de ventas...",
+          "status": "Seleccionar estado",
+          "badge": "Sin insignia"
+        },
+        "featuresDescription": "Introduce cada característica en una nueva línea."
+      }
+    },
+    "roles": {
+      "title": "Gestión de Roles",
+      "description": "Define roles y los permisos asociados a ellos.",
+      "createRole": "Crear Rol",
+      "table": {
+        "roleName": "Nombre del Rol",
+        "description": "Descripción",
+        "users": "Usuarios",
+        "permissions": "Permisos"
+      },
+      "actions": {
+        "edit": "Editar Rol",
+        "delete": "Eliminar Rol"
+      },
+      "deleteDialog": {
+        "title": "¿Estás completamente seguro?",
+        "description": "Esta acción no se puede deshacer. Esto eliminará permanentemente el rol de <strong>{{name}}</strong>."
+      },
+      "toast": {
+        "updated": "Rol ha sido actualizado.",
+        "created": "Nuevo rol ha sido creado.",
+        "deleted": "Rol ha sido eliminado.",
+        "deleteAdminError": "El rol de Super Admin no puede ser eliminado."
+      },
+      "reference": {
+        "title": "Referencia de Permisos",
+        "description": "Una lista completa de todos los permisos disponibles en el sistema, agrupados por módulo."
+      },
+      "permissionGroups": {
+        "companies": "Compañías",
+        "billing": "Facturación",
+        "support": "Soporte",
+        "users": "Usuarios",
+        "gateway": "Gateway",
+        "settings": "Ajustes"
+      },
+      "permissions": {
+        "companies_view_label": "Ver Compañías",
+        "companies_view_desc": "Puede ver la lista de compañías y sus perfiles.",
+        "companies_edit_label": "Editar Compañías",
+        "companies_edit_desc": "Puede editar los detalles de la compañía.",
+        "companies_create_label": "Crear Compañías",
+        "companies_create_desc": "Puede añadir nuevas compañías.",
+        "companies_delete_label": "Eliminar Compañías",
+        "companies_delete_desc": "Puede eliminar compañías.",
+        "billing_view_label": "Ver Facturación",
+        "billing_view_desc": "Puede ver el historial de facturación y las facturas.",
+        "billing_manage_label": "Gestionar Suscripciones",
+        "billing_manage_desc": "Puede actualizar/bajar de categoría los planes.",
+        "billing_export_label": "Exportar Facturas",
+        "billing_export_desc": "Puede descargar facturas en PDF.",
+        "support_view_label": "Ver Tickets",
+        "support_view_desc": "Puede ver los tickets de soporte.",
+        "support_reply_label": "Responder a Tickets",
+        "support_reply_desc": "Puede responder a los tickets de soporte.",
+        "support_manage_label": "Gestionar Tickets",
+        "support_manage_desc": "Puede cambiar el estado, la prioridad y la asignación del ticket.",
+        "users_view_label": "Ver Usuarios",
+        "users_view_desc": "Puede ver la lista de usuarios.",
+        "users_invite_label": "Invitar Usuarios",
+        "users_invite_desc": "Puede invitar a nuevos usuarios a la plataforma.",
+        "users_manage_label": "Gestionar Usuarios",
+        "users_manage_desc": "Puede suspender, activar y editar los detalles del usuario.",
+        "gateway_admin_label": "Gestionar Gateway de API",
+        "gateway_admin_desc": "Puede crear, gestionar y revocar tokens de API.",
+        "logs_read_label": "Ver Registros de Auditoría",
+        "logs_read_desc": "Puede ver el rastro del registro de auditoría.",
+        "settings_view_label": "Ver Ajustes",
+        "settings_view_desc": "Puede ver los ajustes del sistema.",
+        "settings_edit_label": "Editar Ajustes",
+        "settings_edit_desc": "Puede cambiar los ajustes del sistema.",
+        "roles_manage_label": "Gestionar Roles y Permisos",
+        "roles_manage_desc": "Puede crear, editar y eliminar roles."
+      },
+      "form": {
+        "editTitle": "Editar Rol",
+        "createTitle": "Crear Nuevo Rol",
+        "editDescription": "Actualizar los detalles de este rol.",
+        "createDescription": "Rellenar los detalles del nuevo rol.",
+        "labels": {
+          "name": "Nombre del Rol",
+          "description": "Descripción",
+          "permissions": "Permisos"
+        },
+        "placeholders": {
+          "name": "ej., Gerente de Finanzas",
+          "description": "Describe lo que este rol puede hacer."
+        },
+        "permissionsDescription": "Selecciona los permisos que este rol debe tener."
+      }
+    }
+  }
+}

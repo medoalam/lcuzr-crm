@@ -1,0 +1,591 @@
+
+{
+  "header": {
+    "searchPlaceholder": "بحث سريع...",
+    "notifications": "إشعارات",
+    "profile": "الملف الشخصي",
+    "billing": "الفواتير",
+    "settings": "الإعدادات",
+    "logout": "تسجيل الخروج",
+    "admin": "مدير",
+    "adminEmail": "admin@lcuzr.com",
+    "switchLanguage": "تغيير اللغة"
+  },
+  "sidebar": {
+    "dashboard": "لوحة التحكم",
+    "companies": "الشركات",
+    "billing": "الفواتير",
+    "support": "الدعم",
+    "users": "إدارة المستخدمين",
+    "gateway": "البوابة",
+    "settings": "الإعدادات"
+  },
+  "dashboardTab": {
+    "title": "لوحة التحكم",
+    "totalCompanies": "إجمالي الشركات",
+    "totalCompaniesDesc": "+25 منذ الشهر الماضي",
+    "activeUsers": "المستخدمون النشطون",
+    "activeUsersDesc": "+180 منذ الشهر الماضي",
+    "mrr": "الإيرادات الشهرية المتكررة",
+    "mrrDesc": "+2.1% من الشهر الماضي",
+    "openSupportTickets": "تذاكر الدعم المفتوحة",
+    "openSupportTicketsDesc": "+5 تذاكر جديدة اليوم",
+    "revenueGrowthTitle": "نمو الإيرادات",
+    "revenueGrowthDesc": "الإيرادات الشهرية خلال الـ 6 أشهر الماضية.",
+    "subscriptionPlansTitle": "خطط الاشتراك",
+    "subscriptionPlansDesc": "توزيع الخطط النشطة.",
+    "recentActivityTitle": "النشاط الأخير",
+    "recentActivityDesc": "موجز بآخر إجراءات النظام والمستخدم.",
+    "recentSupportTicketsTitle": "تذاكر الدعم الأخيرة",
+    "recentSupportTicketsDesc": "أحدث التذاكر من العملاء.",
+    "tableSubject": "الموضوع",
+    "tableCompany": "الشركة",
+    "tableStatus": "الحالة",
+    "tableActions": "الإجراءات"
+  },
+  "common": {
+    "save": "حفظ التغييرات",
+    "create": "إنشاء",
+    "cancel": "إلغاء",
+    "delete": "حذف",
+    "edit": "تعديل",
+    "add": "إضافة",
+    "submit": "إرسال",
+    "actions": "إجراءات",
+    "status": "الحالة",
+    "error": "خطأ",
+    "success": "نجاح",
+    "loading": "جار التحميل...",
+    "search": "بحث...",
+    "filter": "تصفية...",
+    "viewDetails": "عرض التفاصيل",
+    "openMenu": "فتح القائمة"
+  },
+  "companies": {
+    "title": "الشركات",
+    "description": "إدارة ومراقبة جميع الشركات العميلة.",
+    "addCompany": "إضافة شركة",
+    "filterPlaceholder": "تصفية حسب اسم الشركة أو الصناعة...",
+    "status": {
+      "active": "نشط",
+      "trial": "تجريبي",
+      "suspended": "معلق"
+    },
+    "table": {
+      "companyName": "اسم الشركة",
+      "industry": "الصناعة",
+      "country": "الدولة",
+      "users": "المستخدمون",
+      "usage": "الاستخدام",
+      "plan": "خطة الاشتراك"
+    },
+    "actions": {
+      "edit": "تعديل الشركة",
+      "view": "عرض التفاصيل",
+      "ai": "إجراءات الذكاء الاصطناعي",
+      "predictUsage": "توقع الاستخدام",
+      "suggestUpgrade": "اقتراح ترقية",
+      "delete": "حذف الشركة"
+    },
+    "deleteDialog": {
+      "title": "هل أنت متأكد؟",
+      "description": "لا يمكن التراجع عن هذا الإجراء. سيؤدي هذا إلى حذف الشركة {{name}} بشكل دائم.",
+      "deleting": "جار الحذف..."
+    },
+    "aiDialog": {
+      "predictionTitle": "توقع الاستخدام لـ {{companyName}}",
+      "suggestionTitle": "اقتراح ترقية لـ {{companyName}}",
+      "description": "هذا تحليل تم إنشاؤه بواسطة الذكاء الاصطناعي. يرجى المراجعة بعناية.",
+      "analyzing": "جار التحليل...",
+      "result": {
+        "recommendation": "توصية",
+        "reasoning": "المنطق",
+        "predictedUsage": "الاستخدام المتوقع",
+        "suggestion": "اقتراح",
+        "confidence": "مستوى الثقة"
+      }
+    },
+    "toast": {
+      "deleteSuccess": "تم حذف الشركة بنجاح."
+    }
+  },
+  "companyForm": {
+    "editTitle": "تعديل الشركة",
+    "addTitle": "إضافة شركة جديدة",
+    "editDescription": "تحديث تفاصيل هذه الشركة.",
+    "addDescription": "املأ تفاصيل الشركة الجديدة.",
+    "labels": {
+      "name": "اسم الشركة",
+      "industry": "الصناعة",
+      "country": "الدولة",
+      "email": "البريد الإلكتروني للاتصال",
+      "employees": "عدد الموظفين",
+      "status": "الحالة",
+      "plan": "الخطة"
+    },
+    "placeholders": {
+      "name": "شركة الابتكار",
+      "industry": "تكنولوجيا",
+      "country": "مثال، الولايات المتحدة الأمريكية",
+      "email": "contact@company.com"
+    },
+    "selects": {
+      "employees": {
+        "placeholder": "اختر حجماً",
+        "s1": "1-10 موظفين",
+        "s2": "11-50 موظفاً",
+        "s3": "51-200 موظف",
+        "s4": "201-1000 موظف",
+        "s5": "1000+ موظف"
+      },
+      "status": {
+        "placeholder": "اختر حالة",
+        "active": "نشط",
+        "trial": "تجريبي",
+        "suspended": "معلق"
+      },
+      "plan": {
+        "placeholder": "اختر خطة",
+        "basic": "أساسي",
+        "pro": "محترف",
+        "enterprise": "مؤسسة"
+      }
+    },
+    "save": "حفظ التغييرات",
+    "create": "إنشاء شركة",
+    "toast": {
+      "addSuccess": "تمت إضافة الشركة بنجاح.",
+      "updateSuccess": "تم تحديث الشركة بنجاح."
+    }
+  },
+  "billing": {
+    "summary": {
+      "activeSubscriptions": "الاشتراكات النشطة",
+      "activeSubscriptionsDesc": "إجمالي الخطط المدفوعة النشطة",
+      "mrr": "الإيرادات الشهرية المتكررة",
+      "mrrDesc": "+20.1% عن الشهر الماضي",
+      "upcomingRenewals": "التجديدات القادمة",
+      "upcomingRenewalsDesc": "في الثلاثين يومًا القادمة",
+      "overdueInvoices": "الفواتير المتأخرة",
+      "overdueInvoicesDesc": "إجمالي المعلقة أو الفاشلة"
+    },
+    "history": {
+      "title": "سجل الفواتير",
+      "description": "سجل بجميع الفواتير وحالتها. يمكنك تنزيل أو إعادة إرسال الفواتير من هنا.",
+      "filterPlaceholder": "بحث حسب الفاتورة أو الشركة...",
+      "filterByStatus": "تصفية حسب الحالة",
+      "allStatuses": "جميع الحالات",
+      "filterByPlan": "تصفية حسب الخطة",
+      "allPlans": "جميع الخطط",
+      "pickDateRange": "اختر نطاقًا زمنيًا"
+    },
+    "table": {
+      "invoiceId": "معرف الفاتورة",
+      "company": "الشركة",
+      "date": "التاريخ",
+      "paymentMethod": "طريقة الدفع",
+      "plan": "خطة الاشتراك",
+      "nextBilling": "الفاتورة التالية",
+      "amount": "المبلغ"
+    },
+    "status": {
+      "paid": "مدفوع",
+      "pending": "قيد الانتظار",
+      "failed": "فشل",
+      "refunded": "مسترد"
+    },
+    "actions": {
+      "invoiceActions": "إجراءات الفاتورة",
+      "download": "تنزيل الفاتورة",
+      "retryPayment": "إعادة محاولة الدفع",
+      "sendReminder": "إرسال تذكير",
+      "resendInvoice": "إعادة إرسال الفاتورة",
+      "subscription": "الاشتراك",
+      "suspend": "تعليق الاشتراك",
+      "cancel": "إلغاء الاشتراك"
+    }
+  },
+  "support": {
+    "title": "تذاكر الدعم",
+    "description": "إدارة جميع طلبات دعم العملاء.",
+    "newTicket": "تذكرة جديدة",
+    "filterPlaceholder": "بحث حسب الموضوع أو الشركة...",
+    "filterByStatus": "تصفية حسب الحالة",
+    "allStatuses": "جميع الحالات",
+    "filterByPriority": "تصفية حسب الأولوية",
+    "allPriorities": "جميع الأولويات",
+    "summary": {
+      "openTickets": "التذاكر المفتوحة",
+      "openTicketsDesc": "في انتظار الرد الأول",
+      "inProgress": "التذاكر قيد التنفيذ",
+      "inProgressDesc": "يتم التعامل معها حاليًا",
+      "avgResponse": "متوسط وقت الاستجابة",
+      "avgResponseTime": "4.2 ساعات",
+      "avgResponseDesc": "متوسط آخر 7 أيام",
+      "resolvedToday": "تم حلها اليوم",
+      "resolvedTodayDesc": "+2 مقارنة بالأمس"
+    },
+    "table": {
+      "subject": "الموضوع",
+      "company": "الشركة",
+      "priority": "الأولوية",
+      "createdDate": "تاريخ الإنشاء",
+      "assignedTo": "مكلف لـ"
+    },
+    "priority": {
+      "high": "عالية",
+      "medium": "متوسطة",
+      "low": "منخفضة"
+    },
+    "status": {
+      "open": "مفتوحة",
+      "inprogress": "قيد التنفيذ",
+      "resolved": "تم حلها",
+      "closed": "مغلقة"
+    },
+    "actions": {
+      "changeStatus": "تغيير الحالة"
+    },
+    "toast": {
+      "statusUpdated": "تم تحديث حالة التذكرة."
+    }
+  },
+  "userManagement": {
+    "title": "إدارة المستخدمين",
+    "description": "دعوة وإدارة وعرض جميع المستخدمين في النظام.",
+    "inviteUser": "دعوة مستخدم",
+    "filterPlaceholder": "تصفية حسب الاسم أو البريد الإلكتروني أو الشركة...",
+    "summary": {
+      "totalUsers": "إجمالي المستخدمين",
+      "totalUsersDesc": "+2 منذ الأسبوع الماضي",
+      "activeUsers": "المستخدمون النشطون",
+      "activeUsersDesc": "نشطون على المنصة"
+    },
+    "table": {
+      "user": "المستخدم",
+      "company": "الشركة",
+      "role": "الدور",
+      "lastLogin": "آخر تسجيل دخول"
+    },
+    "status": {
+      "active": "نشط",
+      "suspended": "معلق"
+    },
+    "actions": {
+      "edit": "تعديل المستخدم",
+      "suspend": "تعليق المستخدم",
+      "activate": "تفعيل المستخدم",
+      "delete": "حذف المستخدم"
+    },
+    "deleteDialog": {
+      "title": "هل أنت متأكد؟",
+      "description": "لا يمكن التراجع عن هذا الإجراء. سيؤدي هذا إلى حذف المستخدم {{name}} بشكل دائم."
+    },
+    "toast": {
+      "statusUpdated": "تم تحديث حالة المستخدم.",
+      "deleted": "تم حذف المستخدم بنجاح."
+    }
+  },
+  "userForm": {
+    "editTitle": "تعديل المستخدم",
+    "addTitle": "دعوة مستخدم جديد",
+    "editDescription": "تحديث تفاصيل هذا المستخدم.",
+    "addDescription": "املأ تفاصيل المستخدم الجديد. سيتلقون رسالة دعوة عبر البريد الإلكتروني.",
+    "labels": {
+      "name": "الاسم الكامل",
+      "email": "عنوان البريد الإلكتروني",
+      "company": "الشركة",
+      "role": "الدور",
+      "status": "الحالة"
+    },
+    "placeholders": {
+      "name": "جون دو",
+      "email": "user@company.com",
+      "company": "شركة الابتكار"
+    },
+    "selects": {
+      "role": {
+        "placeholder": "اختر دورًا",
+        "admin": "مدير",
+        "member": "عضو",
+        "viewer": "مشاهد"
+      },
+      "status": {
+        "placeholder": "اختر حالة",
+        "active": "نشط",
+        "suspended": "معلق"
+      }
+    },
+    "save": "حفظ التغييرات",
+    "create": "إرسال دعوة",
+    "toast": {
+      "addSuccess": "تمت دعوة المستخدم بنجاح.",
+      "updateSuccess": "تم تحديث المستخدم بنجاح."
+    }
+  },
+  "gateway": {
+    "token": {
+      "title": "إدارة رموز API",
+      "description": "إنشاء وإدارة وإلغاء رموز API للخدمات الداخلية.",
+      "createToken": "إنشاء رمز",
+      "table": {
+        "owner": "المالك",
+        "scopes": "النطاقات",
+        "lastUsed": "آخر استخدام",
+        "tokenId": "معرف الرمز"
+      },
+      "status": {
+        "active": "نشط",
+        "revoked": "تم إلغاؤه"
+      },
+      "actions": {
+        "copy": "نسخ الرمز",
+        "edit": "تعديل النطاقات",
+        "revoke": "إلغاء الرمز"
+      },
+      "form": {
+        "title": "إنشاء رمز API جديد",
+        "description": "تكوين المالك والأذونات للرمز الجديد. سيتم عرض الرمز مرة واحدة بعد الإنشاء.",
+        "ownerLabel": "المالك",
+        "ownerPlaceholder": "مثال، billing_service",
+        "scopesLabel": "النطاقات",
+        "createButton": "إنشاء رمز",
+        "ownerRequired": "مالك الرمز مطلوب.",
+        "scopeRequired": "يجب تحديد نطاق واحد على الأقل."
+      },
+      "revokeDialog": {
+        "title": "هل أنت متأكد من أنك تريد إلغاء هذا الرمز؟",
+        "description": "لا يمكن التراجع عن هذا الإجراء. سيتم إلغاء تنشيط الرمز الخاص بـ {{owner}} (المعرف: {{id}}...) بشكل دائم.",
+        "confirm": "نعم، إلغاء الرمز"
+      },
+      "toast": {
+        "created": "تم إنشاء رمز API الجديد بنجاح.",
+        "revoked": "تم إلغاء الرمز الخاص بـ {{owner}}."
+      }
+    },
+    "audit": {
+      "title": "سجلات التدقيق",
+      "description": "تتبع جميع أنشطة المستخدم والنظام على مستوى المنصة. تصفية حسب الإجراء أو المستخدم أو IP أو الحالة.",
+      "filterPlaceholder": "تصفية السجلات...",
+      "table": {
+        "timestamp": "الطابع الزمني",
+        "action": "الإجراء",
+        "user": "المستخدم / الخدمة",
+        "ip": "عنوان IP",
+        "duration": "المدة"
+      },
+      "noLogs": "لم يتم العثور على سجلات تطابق عامل التصفية الخاص بك."
+    }
+  },
+  "settings": {
+    "tabs": {
+      "general": "عام",
+      "security": "الأمان",
+      "billing": "الفواتير",
+      "plans": "الخطط",
+      "integrations": "التكاملات",
+      "notifications": "الإشعارات",
+      "roles": "الأدوار"
+    },
+    "toast": {
+      "saveSuccessTitle": "تم حفظ الإعدادات",
+      "saveSuccessDescription": "تم تحديث إعدادات {{section}} الخاصة بك بنجاح."
+    },
+    "general": {
+      "title": "الإعدادات العامة",
+      "description": "إدارة المعلومات الأساسية والإعدادات الافتراضية لتطبيقك.",
+      "appNameLabel": "اسم التطبيق",
+      "contactEmailLabel": "البريد الإلكتروني للاتصال",
+      "languageLabel": "اللغة الافتراضية",
+      "languagePlaceholder": "اختر لغة",
+      "timezoneLabel": "المنطقة الزمنية",
+      "timezonePlaceholder": "اختر منطقة زمنية"
+    },
+    "security": {
+      "title": "إعدادات الأمان",
+      "description": "تكوين سياسات الأمان ومصادقة المستخدم.",
+      "twoFactorAuthLabel": "المصادقة الثنائية (2FA)",
+      "twoFactorAuthDescription": "اطلب خطوة مصادقة ثانية لجميع المستخدمين.",
+      "sessionTimeoutLabel": "مهلة الجلسة (دقائق)",
+      "passwordPolicyLabel": "سياسة كلمة المرور",
+      "passwordPolicyPlaceholder": "اختر سياسة",
+      "passwordPolicyLow": "ضعيفة (6+ أحرف)",
+      "passwordPolicyMedium": "متوسطة (8+ أحرف، رقم واحد)",
+      "passwordPolicyStrong": "قوية (12+ حرفًا، رموز، حالة مختلطة)"
+    },
+    "billing": {
+      "title": "إعدادات الفواتير",
+      "description": "إدارة العملة الافتراضية ومعدلات الضرائب وتفاصيل الفواتير.",
+      "taxRateLabel": "معدل الضريبة الافتراضي (٪)",
+      "currencyLabel": "العملة الافتراضية",
+      "currencyPlaceholder": "اختر عملة",
+      "invoiceFooterLabel": "نص تذييل الفاتورة"
+    },
+    "integrations": {
+      "title": "التكاملات",
+      "description": "الاتصال بتطبيقات وخدمات الجهات الخارجية.",
+      "slackDescription": "تلقي الإشعارات في مساحة عمل Slack الخاصة بك.",
+      "zapierDescription": "أتمتة مهام سير العمل مع آلاف التطبيقات.",
+      "connect": "اتصال"
+    },
+    "notifications": {
+      "title": "إعدادات الإشعارات",
+      "description": "إدارة كيفية تلقيك أنت وفريقك للتنبيهات.",
+      "systemAlertsLabel": "تنبيهات النظام",
+      "systemAlertsDescription": "تلقي تنبيهات لأحداث النظام الهامة.",
+      "dailySummaryLabel": "ملخص البريد الإلكتروني اليومي",
+      "dailySummaryDescription": "احصل على ملخص يومي لنشاط المنصة.",
+      "billingRemindersLabel": "تذكيرات الفواتير",
+      "billingRemindersDescription": "احصل على إشعارات بالمدفوعات القادمة والفاشلة."
+    },
+    "plans": {
+      "title": "خطط الاشتراك",
+      "description": "إدارة الأسعار والميزات وتوافر خطط الاشتراك الخاصة بك.",
+      "monthly": "شهريًا",
+      "yearly": "سنويًا (خصم 40%)",
+      "addPlan": "إضافة خطة",
+      "customPrice": "مخصص",
+      "free": "مجاني",
+      "perMonth": "/شهر",
+      "perYear": "/سنة",
+      "subscriberCount": "{{count}} شركة نشطة",
+      "archive": "أرشفة",
+      "activate": "تفعيل",
+      "status": {
+        "active": "نشط",
+        "archived": "مؤرشف"
+      },
+      "badge": {
+        "none": "بدون شارة",
+        "popular": "شائع",
+        "best_value": "أفضل قيمة"
+      },
+      "toast": {
+        "updated": "تم تحديث الخطة بنجاح.",
+        "created": "تم إنشاء الخطة بنجاح.",
+        "archived": "تم أرشفة الخطة ولن تكون متاحة للعملاء الجدد.",
+        "activated": "الخطة نشطة الآن."
+      },
+      "archiveDialog": {
+        "title": "هل أنت متأكد؟",
+        "description": "سيؤدي هذا إلى أرشفة خطة {{name}}. لن يتأثر المشتركون الحاليون، ولكن لا يمكن للعملاء الجدد الاشتراك فيها.",
+        "confirm": "نعم، أرشفة الخطة"
+      },
+      "form": {
+        "editTitle": "تعديل الخطة",
+        "createTitle": "إنشاء خطة جديدة",
+        "editDescription": "تحديث تفاصيل خطة الاشتراك هذه.",
+        "createDescription": "املأ تفاصيل الخطة الجديدة.",
+        "labels": {
+          "name": "اسم الخطة",
+          "price": "السعر الشهري ($)",
+          "description": "الوصف",
+          "features": "الميزات",
+          "notes": "ملاحظات داخلية (اختياري)",
+          "badge": "شارة"
+        },
+        "placeholders": {
+          "name": "مثال، محترف",
+          "price": "49 أو مخصص",
+          "description": "وصف قصير للخطة.",
+          "features": "ميزة واحدة لكل سطر...",
+          "notes": "ملاحظات لفريق المبيعات...",
+          "status": "اختر حالة",
+          "badge": "بدون شارة"
+        },
+        "featuresDescription": "أدخل كل ميزة في سطر جديد."
+      }
+    },
+    "roles": {
+      "title": "إدارة الأدوار",
+      "description": "تحديد الأدوار والأذونات المرتبطة بها.",
+      "createRole": "إنشاء دور",
+      "table": {
+        "roleName": "اسم الدور",
+        "description": "الوصف",
+        "users": "المستخدمون",
+        "permissions": "الأذونات"
+      },
+      "actions": {
+        "edit": "تعديل الدور",
+        "delete": "حذف الدور"
+      },
+      "deleteDialog": {
+        "title": "هل أنت متأكد تمامًا؟",
+        "description": "لا يمكن التراجع عن هذا الإجراء. سيؤدي هذا إلى حذف دور <strong>{{name}}</strong> بشكل دائم."
+      },
+      "toast": {
+        "updated": "تم تحديث الدور.",
+        "created": "تم إنشاء دور جديد.",
+        "deleted": "تم حذف الدور.",
+        "deleteAdminError": "لا يمكن حذف دور المسؤول الأعلى."
+      },
+      "reference": {
+        "title": "مرجع الأذونات",
+        "description": "قائمة كاملة بجميع الأذونات المتاحة في النظام، مجمعة حسب الوحدة."
+      },
+      "permissionGroups": {
+        "companies": "الشركات",
+        "billing": "الفواتير",
+        "support": "الدعم",
+        "users": "المستخدمون",
+        "gateway": "البوابة",
+        "settings": "الإعدادات"
+      },
+      "permissions": {
+        "companies_view_label": "عرض الشركات",
+        "companies_view_desc": "يمكن عرض قائمة الشركات وملفاتهم الشخصية.",
+        "companies_edit_label": "تعديل الشركات",
+        "companies_edit_desc": "يمكن تعديل تفاصيل الشركة.",
+        "companies_create_label": "إنشاء شركات",
+        "companies_create_desc": "يمكن إضافة شركات جديدة.",
+        "companies_delete_label": "حذف الشركات",
+        "companies_delete_desc": "يمكن حذف الشركات.",
+        "billing_view_label": "عرض الفواتير",
+        "billing_view_desc": "يمكن عرض سجل الفواتير والفواتير.",
+        "billing_manage_label": "إدارة الاشتراكات",
+        "billing_manage_desc": "يمكن ترقية/تخفيض الخطط.",
+        "billing_export_label": "تصدير الفواتير",
+        "billing_export_desc": "يمكن تنزيل فواتير PDF.",
+        "support_view_label": "عرض التذاكر",
+        "support_view_desc": "يمكن عرض تذاكر الدعم.",
+        "support_reply_label": "الرد على التذاكر",
+        "support_reply_desc": "يمكن الرد على تذاكر الدعم.",
+        "support_manage_label": "إدارة التذاكر",
+        "support_manage_desc": "يمكن تغيير حالة التذكرة والأولوية والتعيين.",
+        "users_view_label": "عرض المستخدمين",
+        "users_view_desc": "يمكن عرض قائمة المستخدمين.",
+        "users_invite_label": "دعوة المستخدمين",
+        "users_invite_desc": "يمكن دعوة مستخدمين جدد إلى المنصة.",
+        "users_manage_label": "إدارة المستخدمين",
+        "users_manage_desc": "يمكن تعليق وتفعيل وتعديل تفاصيل المستخدم.",
+        "gateway_admin_label": "إدارة بوابة API",
+        "gateway_admin_desc": "يمكن إنشاء وإدارة وإلغاء رموز API.",
+        "logs_read_label": "عرض سجلات التدقيق",
+        "logs_read_desc": "يمكن عرض سجل التدقيق.",
+        "settings_view_label": "عرض الإعدادات",
+        "settings_view_desc": "يمكن عرض إعدادات النظام.",
+        "settings_edit_label": "تعديل الإعدادات",
+        "settings_edit_desc": "يمكن تغيير إعدادات النظام.",
+        "roles_manage_label": "إدارة الأدوار والأذونات",
+        "roles_manage_desc": "يمكن إنشاء وتعديل وحذف الأدوار."
+      },
+      "form": {
+        "editTitle": "تعديل الدور",
+        "createTitle": "إنشاء دور جديد",
+        "editDescription": "تحديث تفاصيل هذا الدور.",
+        "createDescription": "املأ تفاصيل الدور الجديد.",
+        "labels": {
+          "name": "اسم الدور",
+          "description": "الوصف",
+          "permissions": "الأذونات"
+        },
+        "placeholders": {
+          "name": "مثال، مدير المالية",
+          "description": "صف ما يمكن لهذا الدور القيام به."
+        },
+        "permissionsDescription": "حدد الأذونات التي يجب أن يتمتع بها هذا الدور."
+      }
+    }
+  }
+}
